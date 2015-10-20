@@ -1,0 +1,240 @@
+test_se_mod
+# processing ../data/csv/first.csv ...
+se90: r2=2775.633, zeta=0
+res=0.000012
+se99: r2=1.759, zeta=10
+res=0.000014
+se1: r2=3.346, zeta=4
+res=0.000014
+# processing ../data/csv/A6_1.csv ...
+se90: r2=357.737, zeta=1
+res=0.000018
+se99: r2=1.079, zeta=9
+res=0.000022
+se1: r2=2.181, zeta=4
+res=0.000022
+# processing ../data/csv/A6_2.csv ...
+se90: r2=1.175, zeta=5
+res=0.000028
+se99: r2=1.180, zeta=7
+res=0.000028
+se1: r2=2.360, zeta=3
+res=0.000028
+# processing ../data/csv/A6_3.csv ...
+se90: r2=1.200, zeta=5
+res=0.000046
+se99: r2=1.208, zeta=6
+res=0.000046
+se1: r2=2.416, zeta=2
+res=0.000046
+# processing ../data/csv/A6_4.csv ...
+se90: r2=1.275, zeta=5
+res=0.000001
+se99: r2=1.270, zeta=8
+res=0.000001
+se1: r2=2.541, zeta=3
+res=0.000001
+# processing ../data/csv/A6_5.csv ...
+se90: r2=6.503, zeta=3
+res=0.000019
+se99: r2=1.448, zeta=9
+res=0.000019
+se1: r2=2.895, zeta=4
+res=0.000019
+# processing ../data/csv/A6_6.csv ...
+se90: r2=2.947, zeta=5
+res=0.000009
+se99: r2=1.201, zeta=10
+res=0.000009
+se1: r2=2.403, zeta=6
+res=0.000009
+# processing ../data/csv/A6_7.csv ...
+se90: r2=46171.323, zeta=5
+res=0.000015
+se99: r2=1.334, zeta=10
+res=0.000015
+se1: r2=2.109, zeta=10
+res=0.000015
+# processing ../data/csv/A6_8.csv ...
+se90: r2=6.611, zeta=5
+res=0.000012
+se99: r2=1.138, zeta=10
+res=0.000012
+se1: r2=2.277, zeta=7
+res=0.000012
+# processing ../data/csv/A6_9.csv ...
+se90: r2=47.221, zeta=5
+res=0.000062
+se99: r2=1.125, zeta=10
+res=0.000062
+se1: r2=2.249, zeta=8
+res=0.000062
+# processing ../data/csv/A6_10.csv ...
+se90: r2=5392729.743, zeta=0
+res=0.000010
+se99: r2=1.076, zeta=11
+res=0.000012
+se1: r2=2.031, zeta=7
+res=0.000012
+# processing ../data/csv/A6_11.csv ...
+se90: r2=7256695.507, zeta=0
+res=0.000017
+se99: r2=1.648, zeta=7
+res=0.000029
+se1: r2=1.737, zeta=7
+res=0.000029
+# processing ../data/csv/A6_12.csv ...
+se90: r2=1.200, zeta=5
+res=0.000046
+se99: r2=1.208, zeta=6
+res=0.000046
+se1: r2=2.416, zeta=2
+res=0.000046
+# processing ../data/csv/A6_13.csv ...
+se90: r2=1.322, zeta=5
+res=0.000013
+se99: r2=1.322, zeta=6
+res=0.000012
+se1: r2=2.643, zeta=1
+res=0.000012
+# processing ../data/csv/A6_14.csv ...
+se90: r2=1.200, zeta=5
+res=0.000046
+se99: r2=1.208, zeta=6
+res=0.000046
+se1: r2=2.416, zeta=2
+res=0.000046
+# processing ../data/csv/A6_15.csv ...
+se90: r2=1.090, zeta=5
+res=0.000008
+se99: r2=1.090, zeta=5
+res=0.000007
+se1: r2=2.181, zeta=1
+res=0.000010
+# processing ../data/csv/A6_16.csv ...
+se90: r2=1.322, zeta=5
+res=0.000013
+se99: r2=1.322, zeta=6
+res=0.000012
+se1: r2=2.643, zeta=1
+res=0.000012
+# processing ../data/csv/A6_17.csv ...
+se90: r2=1.246, zeta=5
+res=0.000081
+se99: r2=1.246, zeta=6
+res=0.000081
+se1: r2=2.492, zeta=1
+res=0.000077
+# processing ../data/csv/A13_1.csv ...
+se90: r2=8937.850, zeta=5
+res=0.000012
+se99: r2=1.183, zeta=10
+res=0.000012
+se1: r2=2.257, zeta=9
+res=0.000012
+# processing ../data/csv/A13_2.csv ...
+se90: r2=15087.978, zeta=5
+res=0.000008
+se99: r2=1.317, zeta=10
+res=0.000009
+se1: r2=2.627, zeta=8
+res=0.000009
+# processing ../data/csv/A15_1.csv ...
+se90: r2=25479904.392, zeta=5
+res=0.000043
+se99: r2=1.895, zeta=11
+res=0.000046
+se1: r2=3.815, zeta=8
+res=0.000046
+# processing ../data/csv/A15_2.csv ...
+se90: r2=389365.966, zeta=3
+res=0.000028
+se99: r2=1.449, zeta=10
+res=0.000028
+se1: r2=2.887, zeta=8
+res=0.000028
+# processing ../data/csv/A15_3.csv ...
+se90: r2=2.183, zeta=5
+res=0.000008
+se99: r2=1.503, zeta=10
+res=0.000008
+se1: r2=3.006, zeta=6
+res=0.000008
+# processing ../data/csv/B6_1.csv ...
+se90: r2=52.418, zeta=0
+res=0.000020
+se99: r2=1.773, zeta=8
+res=0.000018
+se1: r2=3.545, zeta=2
+res=0.000017
+# processing ../data/csv/B6_2.csv ...
+se90: r2=45.866, zeta=0
+res=0.000021
+se99: r2=2.315, zeta=7
+res=0.000035
+se1: r2=4.630, zeta=2
+res=0.000035
+# processing ../data/csv/B7_1.csv ...
+se90: r2=3.450, zeta=2
+res=0.000021
+se99: r2=1.067, zeta=2
+res=0.000022
+se1: r2=2.005, zeta=2
+res=0.000026
+# processing ../data/csv/B7_2.csv ...
+se90: r2=11.005, zeta=0
+res=0.000031
+se99: r2=1.309, zeta=7
+res=0.000027
+se1: r2=2.618, zeta=1
+res=0.000027
+# processing ../data/csv/B7_3.csv ...
+se90: r2=6.998, zeta=0
+res=0.000030
+se99: r2=1.227, zeta=6
+res=0.000030
+se1: r2=2.453, zeta=1
+res=0.000030
+# processing ../data/csv/B7_4.csv ...
+se90: r2=5.325, zeta=1
+res=0.000028
+se99: r2=1.189, zeta=6
+res=0.000031
+se1: r2=2.378, zeta=1
+res=0.000031
+# processing ../data/csv/B8_1.csv ...
+se90: r2=871.214, zeta=5
+res=0.000038
+se99: r2=1.279, zeta=10
+res=0.000038
+se1: r2=2.548, zeta=10
+res=0.000038
+# processing ../data/csv/B13_1.csv ...
+se90: r2=27.150, zeta=5
+res=0.000021
+se99: r2=0.000, zeta=9
+res=0.000021
+se1: r2=0.000, zeta=9
+res=0.000021
+# processing ../data/csv/B13_2.csv ...
+se90: r2=7.846, zeta=5
+res=0.000002
+se99: r2=1.291, zeta=10
+res=0.000011
+se1: r2=2.581, zeta=6
+res=0.000011
+# processing ../data/csv/B26_1.csv ...
+se90: r2=2.234, zeta=3
+res=0.000026
+se99: r2=2.364, zeta=7
+res=0.000025
+se1: r2=5.827, zeta=1
+res=0.000025
+# processing ../data/csv/B55_1.csv ...
+se90: r2=1.714, zeta=5
+res=0.000045
+se99: r2=1.714, zeta=6
+res=0.000046
+se1: r2=3.428, zeta=1
+res=0.000045
+diary off

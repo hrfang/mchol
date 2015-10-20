@@ -1,0 +1,240 @@
+octave:2> test_gmw_mod
+# processing ../data/mtx/FIRST.mtx ...
+gmw81: r2=2.733, zeta=4
+res=0.000000
+gmw1: r2=3.014, zeta=4
+res=0.000000
+gmw2: r2=2.564, zeta=5
+res=0.000000
+# processing ../data/mtx/A6_1.mtx ...
+gmw81: r2=1.365, zeta=5
+res=0.000000
+gmw1: r2=1.989, zeta=4
+res=0.000000
+gmw2: r2=2.111, zeta=5
+res=0.000000
+# processing ../data/mtx/A6_2.mtx ...
+gmw81: r2=4.844, zeta=3
+res=0.000000
+gmw1: r2=4.265, zeta=3
+res=0.000000
+gmw2: r2=3.881, zeta=2
+res=0.000000
+# processing ../data/mtx/A6_3.mtx ...
+gmw81: r2=4.847, zeta=4
+res=0.000000
+gmw1: r2=5.160, zeta=2
+res=0.000000
+gmw2: r2=2.528, zeta=11
+res=0.000000
+# processing ../data/mtx/A6_4.mtx ...
+gmw81: r2=2.501, zeta=5
+res=0.000000
+gmw1: r2=2.574, zeta=3
+res=0.000000
+gmw2: r2=1.290, zeta=10
+res=0.000000
+# processing ../data/mtx/A6_5.mtx ...
+gmw81: r2=2.347, zeta=5
+res=0.000000
+gmw1: r2=3.120, zeta=4
+res=0.000000
+gmw2: r2=1.647, zeta=10
+res=0.000000
+# processing ../data/mtx/A6_6.mtx ...
+gmw81: r2=1.693, zeta=8
+res=0.000000
+gmw1: r2=2.363, zeta=7
+res=0.000000
+gmw2: r2=1.418, zeta=5
+res=0.000000
+# processing ../data/mtx/A6_7.mtx ...
+gmw81: r2=1.953, zeta=12
+res=0.000000
+gmw1: r2=2.189, zeta=11
+res=0.000000
+gmw2: r2=1.331, zeta=10
+res=0.000000
+# processing ../data/mtx/A6_8.mtx ...
+gmw81: r2=1.953, zeta=8
+res=0.000000
+gmw1: r2=2.189, zeta=7
+res=0.000000
+gmw2: r2=1.051, zeta=10
+res=0.000000
+# processing ../data/mtx/A6_9.mtx ...
+gmw81: r2=1.958, zeta=8
+res=0.000000
+gmw1: r2=2.179, zeta=8
+res=0.000000
+gmw2: r2=1.064, zeta=10
+res=0.000000
+# processing ../data/mtx/A6_10.mtx ...
+gmw81: r2=5.887, zeta=8
+res=0.000000
+gmw1: r2=4.883, zeta=7
+res=0.000000
+gmw2: r2=4.399, zeta=6
+res=0.000000
+# processing ../data/mtx/A6_11.mtx ...
+gmw81: r2=2.334, zeta=8
+res=0.000000
+gmw1: r2=2.550, zeta=7
+res=0.000000
+gmw2: r2=2.311, zeta=7
+res=0.000000
+# processing ../data/mtx/A6_12.mtx ...
+gmw81: r2=4.847, zeta=4
+res=0.000000
+gmw1: r2=5.160, zeta=2
+res=0.000000
+gmw2: r2=2.528, zeta=11
+res=0.000000
+# processing ../data/mtx/A6_13.mtx ...
+gmw81: r2=2.180, zeta=2
+res=0.000000
+gmw1: r2=3.289, zeta=1
+res=0.000000
+gmw2: r2=2.971, zeta=1
+res=0.000000
+# processing ../data/mtx/A6_14.mtx ...
+gmw81: r2=4.847, zeta=4
+res=0.000000
+gmw1: r2=5.160, zeta=2
+res=0.000000
+gmw2: r2=2.528, zeta=11
+res=0.000000
+# processing ../data/mtx/A6_15.mtx ...
+gmw81: r2=5.188, zeta=1
+res=0.000000
+gmw1: r2=5.338, zeta=1
+res=0.000000
+gmw2: r2=2.666, zeta=11
+res=0.000000
+# processing ../data/mtx/A6_16.mtx ...
+gmw81: r2=2.180, zeta=2
+res=0.000000
+gmw1: r2=3.289, zeta=1
+res=0.000000
+gmw2: r2=2.971, zeta=1
+res=0.000000
+# processing ../data/mtx/A6_17.mtx ...
+gmw81: r2=1.527, zeta=2
+res=0.000000
+gmw1: r2=2.713, zeta=1
+res=0.000000
+gmw2: r2=2.461, zeta=1
+res=0.000000
+# processing ../data/mtx/A13_1.mtx ...
+gmw81: r2=2.253, zeta=10
+res=0.000000
+gmw1: r2=2.288, zeta=10
+res=0.000000
+gmw2: r2=1.198, zeta=10
+res=0.000000
+# processing ../data/mtx/A13_2.mtx ...
+gmw81: r2=2.599, zeta=8
+res=0.000000
+gmw1: r2=2.767, zeta=8
+res=0.000000
+gmw2: r2=1.406, zeta=10
+res=0.000000
+# processing ../data/mtx/A15_1.mtx ...
+gmw81: r2=2.421, zeta=9
+res=0.000000
+gmw1: r2=5.718, zeta=9
+res=0.000000
+gmw2: r2=5.372, zeta=8
+res=0.000000
+# processing ../data/mtx/A15_2.mtx ...
+gmw81: r2=2.375, zeta=9
+res=0.000000
+gmw1: r2=2.925, zeta=8
+res=0.000000
+gmw2: r2=2.728, zeta=8
+res=0.000000
+# processing ../data/mtx/A15_3.mtx ...
+gmw81: r2=1.957, zeta=6
+res=0.000000
+gmw1: r2=3.953, zeta=6
+res=0.000000
+gmw2: r2=3.789, zeta=6
+res=0.000000
+# processing ../data/mtx/B6_1.mtx ...
+gmw81: r2=4.901, zeta=3
+res=0.000000
+gmw1: r2=2.817, zeta=2
+res=0.000000
+gmw2: r2=2.512, zeta=2
+res=0.000000
+# processing ../data/mtx/B6_2.mtx ...
+gmw81: r2=4.495, zeta=2
+res=0.000000
+gmw1: r2=3.367, zeta=2
+res=0.000000
+gmw2: r2=3.061, zeta=2
+res=0.000000
+# processing ../data/mtx/B7_1.mtx ...
+gmw81: r2=1.666, zeta=2
+res=0.000000
+gmw1: r2=2.062, zeta=2
+res=0.000000
+gmw2: r2=1.663, zeta=2
+res=0.000000
+# processing ../data/mtx/B7_2.mtx ...
+gmw81: r2=1.932, zeta=2
+res=0.000000
+gmw1: r2=2.721, zeta=2
+res=0.000000
+gmw2: r2=1.449, zeta=11
+res=0.000000
+# processing ../data/mtx/B7_3.mtx ...
+gmw81: r2=1.967, zeta=2
+res=0.000000
+gmw1: r2=2.610, zeta=2
+res=0.000000
+gmw2: r2=1.377, zeta=11
+res=0.000000
+# processing ../data/mtx/B7_4.mtx ...
+gmw81: r2=1.929, zeta=2
+res=0.000000
+gmw1: r2=2.538, zeta=2
+res=0.000000
+gmw2: r2=1.337, zeta=11
+res=0.000000
+# processing ../data/mtx/B8_1.mtx ...
+gmw81: r2=4.164, zeta=12
+res=0.000000
+gmw1: r2=4.164, zeta=12
+res=0.000000
+gmw2: r2=2.087, zeta=11
+res=0.000000
+# processing ../data/mtx/B13_1.mtx ...
+gmw81: r2=0.000, zeta=9
+res=0.000000
+gmw1: r2=0.000, zeta=9
+res=0.000000
+gmw2: r2=0.000, zeta=9
+res=0.000000
+# processing ../data/mtx/B13_2.mtx ...
+gmw81: r2=1.762, zeta=7
+res=0.000000
+gmw1: r2=5.273, zeta=7
+res=0.000000
+gmw2: r2=4.859, zeta=5
+res=0.000000
+# processing ../data/mtx/B26_1.mtx ...
+gmw81: r2=9.833, zeta=1
+res=0.000000
+gmw1: r2=6.639, zeta=1
+res=0.000000
+gmw2: r2=3.721, zeta=2
+res=0.000000
+# processing ../data/mtx/B55_1.mtx ...
+gmw81: r2=3.504, zeta=1
+res=0.000000
+gmw1: r2=3.504, zeta=1
+res=0.000000
+gmw2: r2=1.752, zeta=10
+res=0.000000
+octave:3> diary off

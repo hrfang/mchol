@@ -1,0 +1,138 @@
+octave:2> test_gmw_fac
+# factorizing ../data/33matrices/FIRST.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/FIRST.mtx FIRST_gmw81_L.mtx -P=FIRST_gmw81_P.mtx -E=FIRST_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/FIRST.mtx FIRST_gmw1_L.mtx -P=FIRST_gmw1_P.mtx -E=FIRST_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/FIRST.mtx FIRST_gmw2_L.mtx -P=FIRST_gmw2_P.mtx -E=FIRST_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_1.mtx A6_1_gmw81_L.mtx -P=A6_1_gmw81_P.mtx -E=A6_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_1.mtx A6_1_gmw1_L.mtx -P=A6_1_gmw1_P.mtx -E=A6_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_1.mtx A6_1_gmw2_L.mtx -P=A6_1_gmw2_P.mtx -E=A6_1_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_2.mtx A6_2_gmw81_L.mtx -P=A6_2_gmw81_P.mtx -E=A6_2_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_2.mtx A6_2_gmw1_L.mtx -P=A6_2_gmw1_P.mtx -E=A6_2_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_2.mtx A6_2_gmw2_L.mtx -P=A6_2_gmw2_P.mtx -E=A6_2_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_3.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_3.mtx A6_3_gmw81_L.mtx -P=A6_3_gmw81_P.mtx -E=A6_3_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_3.mtx A6_3_gmw1_L.mtx -P=A6_3_gmw1_P.mtx -E=A6_3_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_3.mtx A6_3_gmw2_L.mtx -P=A6_3_gmw2_P.mtx -E=A6_3_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_4.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_4.mtx A6_4_gmw81_L.mtx -P=A6_4_gmw81_P.mtx -E=A6_4_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_4.mtx A6_4_gmw1_L.mtx -P=A6_4_gmw1_P.mtx -E=A6_4_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_4.mtx A6_4_gmw2_L.mtx -P=A6_4_gmw2_P.mtx -E=A6_4_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_5.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_5.mtx A6_5_gmw81_L.mtx -P=A6_5_gmw81_P.mtx -E=A6_5_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_5.mtx A6_5_gmw1_L.mtx -P=A6_5_gmw1_P.mtx -E=A6_5_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_5.mtx A6_5_gmw2_L.mtx -P=A6_5_gmw2_P.mtx -E=A6_5_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_6.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_6.mtx A6_6_gmw81_L.mtx -P=A6_6_gmw81_P.mtx -E=A6_6_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_6.mtx A6_6_gmw1_L.mtx -P=A6_6_gmw1_P.mtx -E=A6_6_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_6.mtx A6_6_gmw2_L.mtx -P=A6_6_gmw2_P.mtx -E=A6_6_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_7.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_7.mtx A6_7_gmw81_L.mtx -P=A6_7_gmw81_P.mtx -E=A6_7_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_7.mtx A6_7_gmw1_L.mtx -P=A6_7_gmw1_P.mtx -E=A6_7_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_7.mtx A6_7_gmw2_L.mtx -P=A6_7_gmw2_P.mtx -E=A6_7_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_8.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_8.mtx A6_8_gmw81_L.mtx -P=A6_8_gmw81_P.mtx -E=A6_8_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_8.mtx A6_8_gmw1_L.mtx -P=A6_8_gmw1_P.mtx -E=A6_8_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_8.mtx A6_8_gmw2_L.mtx -P=A6_8_gmw2_P.mtx -E=A6_8_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_9.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_9.mtx A6_9_gmw81_L.mtx -P=A6_9_gmw81_P.mtx -E=A6_9_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_9.mtx A6_9_gmw1_L.mtx -P=A6_9_gmw1_P.mtx -E=A6_9_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_9.mtx A6_9_gmw2_L.mtx -P=A6_9_gmw2_P.mtx -E=A6_9_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_10.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_10.mtx A6_10_gmw81_L.mtx -P=A6_10_gmw81_P.mtx -E=A6_10_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_10.mtx A6_10_gmw1_L.mtx -P=A6_10_gmw1_P.mtx -E=A6_10_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_10.mtx A6_10_gmw2_L.mtx -P=A6_10_gmw2_P.mtx -E=A6_10_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_11.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_11.mtx A6_11_gmw81_L.mtx -P=A6_11_gmw81_P.mtx -E=A6_11_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_11.mtx A6_11_gmw1_L.mtx -P=A6_11_gmw1_P.mtx -E=A6_11_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_11.mtx A6_11_gmw2_L.mtx -P=A6_11_gmw2_P.mtx -E=A6_11_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_12.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_12.mtx A6_12_gmw81_L.mtx -P=A6_12_gmw81_P.mtx -E=A6_12_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_12.mtx A6_12_gmw1_L.mtx -P=A6_12_gmw1_P.mtx -E=A6_12_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_12.mtx A6_12_gmw2_L.mtx -P=A6_12_gmw2_P.mtx -E=A6_12_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_13.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_13.mtx A6_13_gmw81_L.mtx -P=A6_13_gmw81_P.mtx -E=A6_13_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_13.mtx A6_13_gmw1_L.mtx -P=A6_13_gmw1_P.mtx -E=A6_13_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_13.mtx A6_13_gmw2_L.mtx -P=A6_13_gmw2_P.mtx -E=A6_13_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_14.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_14.mtx A6_14_gmw81_L.mtx -P=A6_14_gmw81_P.mtx -E=A6_14_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_14.mtx A6_14_gmw1_L.mtx -P=A6_14_gmw1_P.mtx -E=A6_14_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_14.mtx A6_14_gmw2_L.mtx -P=A6_14_gmw2_P.mtx -E=A6_14_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_15.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_15.mtx A6_15_gmw81_L.mtx -P=A6_15_gmw81_P.mtx -E=A6_15_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_15.mtx A6_15_gmw1_L.mtx -P=A6_15_gmw1_P.mtx -E=A6_15_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_15.mtx A6_15_gmw2_L.mtx -P=A6_15_gmw2_P.mtx -E=A6_15_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_16.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_16.mtx A6_16_gmw81_L.mtx -P=A6_16_gmw81_P.mtx -E=A6_16_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_16.mtx A6_16_gmw1_L.mtx -P=A6_16_gmw1_P.mtx -E=A6_16_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_16.mtx A6_16_gmw2_L.mtx -P=A6_16_gmw2_P.mtx -E=A6_16_gmw2_E.mtx
+# factorizing ../data/33matrices/A6_17.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_17.mtx A6_17_gmw81_L.mtx -P=A6_17_gmw81_P.mtx -E=A6_17_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A6_17.mtx A6_17_gmw1_L.mtx -P=A6_17_gmw1_P.mtx -E=A6_17_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A6_17.mtx A6_17_gmw2_L.mtx -P=A6_17_gmw2_P.mtx -E=A6_17_gmw2_E.mtx
+# factorizing ../data/33matrices/A13_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A13_1.mtx A13_1_gmw81_L.mtx -P=A13_1_gmw81_P.mtx -E=A13_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A13_1.mtx A13_1_gmw1_L.mtx -P=A13_1_gmw1_P.mtx -E=A13_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A13_1.mtx A13_1_gmw2_L.mtx -P=A13_1_gmw2_P.mtx -E=A13_1_gmw2_E.mtx
+# factorizing ../data/33matrices/A13_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A13_2.mtx A13_2_gmw81_L.mtx -P=A13_2_gmw81_P.mtx -E=A13_2_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A13_2.mtx A13_2_gmw1_L.mtx -P=A13_2_gmw1_P.mtx -E=A13_2_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A13_2.mtx A13_2_gmw2_L.mtx -P=A13_2_gmw2_P.mtx -E=A13_2_gmw2_E.mtx
+# factorizing ../data/33matrices/A15_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A15_1.mtx A15_1_gmw81_L.mtx -P=A15_1_gmw81_P.mtx -E=A15_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A15_1.mtx A15_1_gmw1_L.mtx -P=A15_1_gmw1_P.mtx -E=A15_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A15_1.mtx A15_1_gmw2_L.mtx -P=A15_1_gmw2_P.mtx -E=A15_1_gmw2_E.mtx
+# factorizing ../data/33matrices/A15_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A15_2.mtx A15_2_gmw81_L.mtx -P=A15_2_gmw81_P.mtx -E=A15_2_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A15_2.mtx A15_2_gmw1_L.mtx -P=A15_2_gmw1_P.mtx -E=A15_2_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A15_2.mtx A15_2_gmw2_L.mtx -P=A15_2_gmw2_P.mtx -E=A15_2_gmw2_E.mtx
+# factorizing ../data/33matrices/A15_3.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A15_3.mtx A15_3_gmw81_L.mtx -P=A15_3_gmw81_P.mtx -E=A15_3_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/A15_3.mtx A15_3_gmw1_L.mtx -P=A15_3_gmw1_P.mtx -E=A15_3_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/A15_3.mtx A15_3_gmw2_L.mtx -P=A15_3_gmw2_P.mtx -E=A15_3_gmw2_E.mtx
+# factorizing ../data/33matrices/B6_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B6_1.mtx B6_1_gmw81_L.mtx -P=B6_1_gmw81_P.mtx -E=B6_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B6_1.mtx B6_1_gmw1_L.mtx -P=B6_1_gmw1_P.mtx -E=B6_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B6_1.mtx B6_1_gmw2_L.mtx -P=B6_1_gmw2_P.mtx -E=B6_1_gmw2_E.mtx
+# factorizing ../data/33matrices/B6_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B6_2.mtx B6_2_gmw81_L.mtx -P=B6_2_gmw81_P.mtx -E=B6_2_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B6_2.mtx B6_2_gmw1_L.mtx -P=B6_2_gmw1_P.mtx -E=B6_2_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B6_2.mtx B6_2_gmw2_L.mtx -P=B6_2_gmw2_P.mtx -E=B6_2_gmw2_E.mtx
+# factorizing ../data/33matrices/B7_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_1.mtx B7_1_gmw81_L.mtx -P=B7_1_gmw81_P.mtx -E=B7_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B7_1.mtx B7_1_gmw1_L.mtx -P=B7_1_gmw1_P.mtx -E=B7_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B7_1.mtx B7_1_gmw2_L.mtx -P=B7_1_gmw2_P.mtx -E=B7_1_gmw2_E.mtx
+# factorizing ../data/33matrices/B7_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_2.mtx B7_2_gmw81_L.mtx -P=B7_2_gmw81_P.mtx -E=B7_2_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B7_2.mtx B7_2_gmw1_L.mtx -P=B7_2_gmw1_P.mtx -E=B7_2_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B7_2.mtx B7_2_gmw2_L.mtx -P=B7_2_gmw2_P.mtx -E=B7_2_gmw2_E.mtx
+# factorizing ../data/33matrices/B7_3.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_3.mtx B7_3_gmw81_L.mtx -P=B7_3_gmw81_P.mtx -E=B7_3_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B7_3.mtx B7_3_gmw1_L.mtx -P=B7_3_gmw1_P.mtx -E=B7_3_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B7_3.mtx B7_3_gmw2_L.mtx -P=B7_3_gmw2_P.mtx -E=B7_3_gmw2_E.mtx
+# factorizing ../data/33matrices/B7_4.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_4.mtx B7_4_gmw81_L.mtx -P=B7_4_gmw81_P.mtx -E=B7_4_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B7_4.mtx B7_4_gmw1_L.mtx -P=B7_4_gmw1_P.mtx -E=B7_4_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B7_4.mtx B7_4_gmw2_L.mtx -P=B7_4_gmw2_P.mtx -E=B7_4_gmw2_E.mtx
+# factorizing ../data/33matrices/B8_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B8_1.mtx B8_1_gmw81_L.mtx -P=B8_1_gmw81_P.mtx -E=B8_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B8_1.mtx B8_1_gmw1_L.mtx -P=B8_1_gmw1_P.mtx -E=B8_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B8_1.mtx B8_1_gmw2_L.mtx -P=B8_1_gmw2_P.mtx -E=B8_1_gmw2_E.mtx
+# factorizing ../data/33matrices/B13_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B13_1.mtx B13_1_gmw81_L.mtx -P=B13_1_gmw81_P.mtx -E=B13_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B13_1.mtx B13_1_gmw1_L.mtx -P=B13_1_gmw1_P.mtx -E=B13_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B13_1.mtx B13_1_gmw2_L.mtx -P=B13_1_gmw2_P.mtx -E=B13_1_gmw2_E.mtx
+# factorizing ../data/33matrices/B13_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B13_2.mtx B13_2_gmw81_L.mtx -P=B13_2_gmw81_P.mtx -E=B13_2_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B13_2.mtx B13_2_gmw1_L.mtx -P=B13_2_gmw1_P.mtx -E=B13_2_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B13_2.mtx B13_2_gmw2_L.mtx -P=B13_2_gmw2_P.mtx -E=B13_2_gmw2_E.mtx
+# factorizing ../data/33matrices/B26_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B26_1.mtx B26_1_gmw81_L.mtx -P=B26_1_gmw81_P.mtx -E=B26_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B26_1.mtx B26_1_gmw1_L.mtx -P=B26_1_gmw1_P.mtx -E=B26_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B26_1.mtx B26_1_gmw2_L.mtx -P=B26_1_gmw2_P.mtx -E=B26_1_gmw2_E.mtx
+# factorizing ../data/33matrices/B55_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B55_1.mtx B55_1_gmw81_L.mtx -P=B55_1_gmw81_P.mtx -E=B55_1_gmw81_E.mtx
+../drivers/gmw -gmw1 ../data/33matrices/B55_1.mtx B55_1_gmw1_L.mtx -P=B55_1_gmw1_P.mtx -E=B55_1_gmw1_E.mtx
+../drivers/gmw -gmw2 ../data/33matrices/B55_1.mtx B55_1_gmw2_L.mtx -P=B55_1_gmw2_P.mtx -E=B55_1_gmw2_E.mtx
+octave:3> diary off

@@ -1,0 +1,852 @@
+test_gmw_fac
+# factorizing ../data/33matrices/FIRST.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/FIRST.mtx FIRST_gmw81_L.mtx -P=FIRST_gmw81_P.mtx -E=FIRST_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/FIRST.mtx
+mtx file of output L: FIRST_gmw81_L.mtx
+mtx file of output P: FIRST_gmw81_P.mtx
+nrows=4, ncols=4, symm='S'
+modified: 1.03338 0.960827 0.556386 0
+perm: 4 1 2 3
+../drivers/gmw -gmw1 ../data/33matrices/FIRST.mtx FIRST_gmw1_L.mtx -P=FIRST_gmw1_P.mtx -E=FIRST_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/FIRST.mtx
+mtx file of output L: FIRST_gmw1_L.mtx
+mtx file of output P: FIRST_gmw1_P.mtx
+nrows=4, ncols=4, symm='S'
+modified: 1.13963 0.913889 0.529088 0
+perm: 4 3 2 1
+../drivers/gmw -gmw2 ../data/33matrices/FIRST.mtx FIRST_gmw2_L.mtx -P=FIRST_gmw2_P.mtx -E=FIRST_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/FIRST.mtx
+mtx file of output L: FIRST_gmw2_L.mtx
+mtx file of output P: FIRST_gmw2_P.mtx
+nrows=4, ncols=4, symm='S'
+modified: 0.969406 0.969406 0.337556 0
+perm: 4 3 2 1
+# factorizing ../data/33matrices/A6_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_1.mtx A6_1_gmw81_L.mtx -P=A6_1_gmw81_P.mtx -E=A6_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_1.mtx
+mtx file of output L: A6_1_gmw81_L.mtx
+mtx file of output P: A6_1_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 11.7127 2.5178 2.15702 0 0 9.87725
+perm: 4 5 1 6 2 3
+../drivers/gmw -gmw1 ../data/33matrices/A6_1.mtx A6_1_gmw1_L.mtx -P=A6_1_gmw1_P.mtx -E=A6_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_1.mtx
+mtx file of output L: A6_1_gmw1_L.mtx
+mtx file of output P: A6_1_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 16.9019 2.65535 1.72498 0 0 17.0616
+perm: 4 5 3 2 6 1
+../drivers/gmw -gmw2 ../data/33matrices/A6_1.mtx A6_1_gmw2_L.mtx -P=A6_1_gmw2_P.mtx -E=A6_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_1.mtx
+mtx file of output L: A6_1_gmw2_L.mtx
+mtx file of output P: A6_1_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 18.1073 1.849 1.59948 0 0 18.1073
+perm: 4 5 3 2 6 1
+# factorizing ../data/33matrices/A6_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_2.mtx A6_2_gmw81_L.mtx -P=A6_2_gmw81_P.mtx -E=A6_2_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_2.mtx
+mtx file of output L: A6_2_gmw81_L.mtx
+mtx file of output P: A6_2_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 99262.7 623570 0 0
+perm: 5 2 3 4 1 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_2.mtx A6_2_gmw1_L.mtx -P=A6_2_gmw1_P.mtx -E=A6_2_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_2.mtx
+mtx file of output L: A6_2_gmw1_L.mtx
+mtx file of output P: A6_2_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 178833 549031 0 0
+perm: 5 2 4 1 6 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_2.mtx A6_2_gmw2_L.mtx -P=A6_2_gmw2_P.mtx -E=A6_2_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_2.mtx
+mtx file of output L: A6_2_gmw2_L.mtx
+mtx file of output P: A6_2_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 499580 0 499580 499580 0 499580
+perm: 5 2 4 1 6 3
+# factorizing ../data/33matrices/A6_3.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_3.mtx A6_3_gmw81_L.mtx -P=A6_3_gmw81_P.mtx -E=A6_3_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_3.mtx
+mtx file of output L: A6_3_gmw81_L.mtx
+mtx file of output P: A6_3_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 474887 0 0 0
+perm: 5 4 3 2 1 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_3.mtx A6_3_gmw1_L.mtx -P=A6_3_gmw1_P.mtx -E=A6_3_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_3.mtx
+mtx file of output L: A6_3_gmw1_L.mtx
+mtx file of output P: A6_3_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 65274.6 505486 0 0 24877
+perm: 5 4 2 1 6 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_3.mtx A6_3_gmw2_L.mtx -P=A6_3_gmw2_P.mtx -E=A6_3_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_3.mtx
+mtx file of output L: A6_3_gmw2_L.mtx
+mtx file of output P: A6_3_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 55689.2 55689.2 247663 0 0 55689.2
+perm: 5 4 2 1 6 3
+# factorizing ../data/33matrices/A6_4.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_4.mtx A6_4_gmw81_L.mtx -P=A6_4_gmw81_P.mtx -E=A6_4_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_4.mtx
+mtx file of output L: A6_4_gmw81_L.mtx
+mtx file of output P: A6_4_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 0 0 169071 0
+perm: 4 3 5 2 1 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_4.mtx A6_4_gmw1_L.mtx -P=A6_4_gmw1_P.mtx -E=A6_4_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_4.mtx
+mtx file of output L: A6_4_gmw1_L.mtx
+mtx file of output P: A6_4_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 0 0 173967 28069.2
+perm: 4 3 2 1 6 5
+../drivers/gmw -gmw2 ../data/33matrices/A6_4.mtx A6_4_gmw2_L.mtx -P=A6_4_gmw2_P.mtx -E=A6_4_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_4.mtx
+mtx file of output L: A6_4_gmw2_L.mtx
+mtx file of output P: A6_4_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 0 0 87179.8 24990.9
+perm: 4 3 2 1 6 5
+# factorizing ../data/33matrices/A6_5.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_5.mtx A6_5_gmw81_L.mtx -P=A6_5_gmw81_P.mtx -E=A6_5_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_5.mtx
+mtx file of output L: A6_5_gmw81_L.mtx
+mtx file of output P: A6_5_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 511.328 0 0 0 84.4787 0
+perm: 4 2 3 6 1 5
+../drivers/gmw -gmw1 ../data/33matrices/A6_5.mtx A6_5_gmw1_L.mtx -P=A6_5_gmw1_P.mtx -E=A6_5_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_5.mtx
+mtx file of output L: A6_5_gmw1_L.mtx
+mtx file of output P: A6_5_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 679.787 0 0 0 211.678 0
+perm: 4 2 3 6 5 1
+../drivers/gmw -gmw2 ../data/33matrices/A6_5.mtx A6_5_gmw2_L.mtx -P=A6_5_gmw2_P.mtx -E=A6_5_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_5.mtx
+mtx file of output L: A6_5_gmw2_L.mtx
+mtx file of output P: A6_5_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 358.824 0 0 0 165.309 0
+perm: 4 2 3 6 5 1
+# factorizing ../data/33matrices/A6_6.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_6.mtx A6_6_gmw81_L.mtx -P=A6_6_gmw81_P.mtx -E=A6_6_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_6.mtx
+mtx file of output L: A6_6_gmw81_L.mtx
+mtx file of output P: A6_6_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 1703.42 0 2820.87 0 7.78896 64.6006
+perm: 4 3 2 1 6 5
+../drivers/gmw -gmw1 ../data/33matrices/A6_6.mtx A6_6_gmw1_L.mtx -P=A6_6_gmw1_P.mtx -E=A6_6_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_6.mtx
+mtx file of output L: A6_6_gmw1_L.mtx
+mtx file of output P: A6_6_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 1416.83 2654.01 3937.89 0 11.1173 176.179
+perm: 4 2 5 6 1 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_6.mtx A6_6_gmw2_L.mtx -P=A6_6_gmw2_P.mtx -E=A6_6_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_6.mtx
+mtx file of output L: A6_6_gmw2_L.mtx
+mtx file of output P: A6_6_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 2362.04 2362.04 2362.04 0 2362.04 2362.04
+perm: 4 2 5 6 1 3
+# factorizing ../data/33matrices/A6_7.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_7.mtx A6_7_gmw81_L.mtx -P=A6_7_gmw81_P.mtx -E=A6_7_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_7.mtx
+mtx file of output L: A6_7_gmw81_L.mtx
+mtx file of output P: A6_7_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 48.0293 0 2193.03 0 96.31 121.49
+perm: 2 4 3 1 5 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_7.mtx A6_7_gmw1_L.mtx -P=A6_7_gmw1_P.mtx -E=A6_7_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_7.mtx
+mtx file of output L: A6_7_gmw1_L.mtx
+mtx file of output P: A6_7_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 659.132 0 2457.73 0 41.8046 412.662
+perm: 2 4 1 6 5 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_7.mtx A6_7_gmw2_L.mtx -P=A6_7_gmw2_P.mtx -E=A6_7_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_7.mtx
+mtx file of output L: A6_7_gmw2_L.mtx
+mtx file of output P: A6_7_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 589.27 0 1493.82 0 589.27 589.27
+perm: 2 4 1 6 5 3
+# factorizing ../data/33matrices/A6_8.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_8.mtx A6_8_gmw81_L.mtx -P=A6_8_gmw81_P.mtx -E=A6_8_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_8.mtx
+mtx file of output L: A6_8_gmw81_L.mtx
+mtx file of output P: A6_8_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 77.0461 0 3361.6 0 137.255 177.691
+perm: 4 2 3 1 5 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_8.mtx A6_8_gmw1_L.mtx -P=A6_8_gmw1_P.mtx -E=A6_8_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_8.mtx
+mtx file of output L: A6_8_gmw1_L.mtx
+mtx file of output P: A6_8_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 1010.79 0 3766.78 0 63.8876 632.11
+perm: 4 2 1 6 5 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_8.mtx A6_8_gmw2_L.mtx -P=A6_8_gmw2_P.mtx -E=A6_8_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_8.mtx
+mtx file of output L: A6_8_gmw2_L.mtx
+mtx file of output P: A6_8_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 903.848 0 1808.44 0 903.848 903.848
+perm: 4 2 1 6 5 3
+# factorizing ../data/33matrices/A6_9.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_9.mtx A6_9_gmw81_L.mtx -P=A6_9_gmw81_P.mtx -E=A6_9_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_9.mtx
+mtx file of output L: A6_9_gmw81_L.mtx
+mtx file of output P: A6_9_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 255.935 0 3522.65 0 45.1634 53.5402
+perm: 4 2 3 1 6 5
+../drivers/gmw -gmw1 ../data/33matrices/A6_9.mtx A6_9_gmw1_L.mtx -P=A6_9_gmw1_P.mtx -E=A6_9_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_9.mtx
+mtx file of output L: A6_9_gmw1_L.mtx
+mtx file of output P: A6_9_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 1519.04 0 3920.27 0 39.6616 711.24
+perm: 4 2 6 5 1 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_9.mtx A6_9_gmw2_L.mtx -P=A6_9_gmw2_P.mtx -E=A6_9_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_9.mtx
+mtx file of output L: A6_9_gmw2_L.mtx
+mtx file of output P: A6_9_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 959.905 0 1914.23 0 636.029 636.029
+perm: 4 2 6 5 1 3
+# factorizing ../data/33matrices/A6_10.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_10.mtx A6_10_gmw81_L.mtx -P=A6_10_gmw81_P.mtx -E=A6_10_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_10.mtx
+mtx file of output L: A6_10_gmw81_L.mtx
+mtx file of output P: A6_10_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 1.89684e+11 5.75961e+11 0 2.81704e+11 2.55291e+10
+perm: 4 1 5 3 2 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_10.mtx A6_10_gmw1_L.mtx -P=A6_10_gmw1_P.mtx -E=A6_10_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_10.mtx
+mtx file of output L: A6_10_gmw1_L.mtx
+mtx file of output P: A6_10_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 4.77751e+11 1.94677e+11 0 0 7.11446e+09 1.02248e+11
+perm: 4 1 3 5 6 2
+../drivers/gmw -gmw2 ../data/33matrices/A6_10.mtx A6_10_gmw2_L.mtx -P=A6_10_gmw2_P.mtx -E=A6_10_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_10.mtx
+mtx file of output L: A6_10_gmw2_L.mtx
+mtx file of output P: A6_10_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 4.30327e+11 4.30327e+11 4.30327e+11 0 4.30327e+11 4.30327e+11
+perm: 4 1 3 5 6 2
+# factorizing ../data/33matrices/A6_11.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_11.mtx A6_11_gmw81_L.mtx -P=A6_11_gmw81_P.mtx -E=A6_11_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_11.mtx
+mtx file of output L: A6_11_gmw81_L.mtx
+mtx file of output P: A6_11_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 1.24621e+26 9.5795e+25 1.73826e+26 0 0 1.33724e+26
+perm: 4 5 2 1 3 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_11.mtx A6_11_gmw1_L.mtx -P=A6_11_gmw1_P.mtx -E=A6_11_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_11.mtx
+mtx file of output L: A6_11_gmw1_L.mtx
+mtx file of output P: A6_11_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 1.42299e+26 1.56132e+26 1.16661e+26 0 0 1.89848e+26
+perm: 4 5 6 1 3 2
+../drivers/gmw -gmw2 ../data/33matrices/A6_11.mtx A6_11_gmw2_L.mtx -P=A6_11_gmw2_P.mtx -E=A6_11_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_11.mtx
+mtx file of output L: A6_11_gmw2_L.mtx
+mtx file of output P: A6_11_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 1.72092e+26 1.72092e+26 1.72092e+26 0 0 1.72092e+26
+perm: 4 5 6 1 3 2
+# factorizing ../data/33matrices/A6_12.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_12.mtx A6_12_gmw81_L.mtx -P=A6_12_gmw81_P.mtx -E=A6_12_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_12.mtx
+mtx file of output L: A6_12_gmw81_L.mtx
+mtx file of output P: A6_12_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 474887 0 0 0
+perm: 5 4 3 2 1 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_12.mtx A6_12_gmw1_L.mtx -P=A6_12_gmw1_P.mtx -E=A6_12_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_12.mtx
+mtx file of output L: A6_12_gmw1_L.mtx
+mtx file of output P: A6_12_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 65274.6 505486 0 0 24877
+perm: 5 4 2 1 6 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_12.mtx A6_12_gmw2_L.mtx -P=A6_12_gmw2_P.mtx -E=A6_12_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_12.mtx
+mtx file of output L: A6_12_gmw2_L.mtx
+mtx file of output P: A6_12_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 55689.2 55689.2 247663 0 0 55689.2
+perm: 5 4 2 1 6 3
+# factorizing ../data/33matrices/A6_13.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_13.mtx A6_13_gmw81_L.mtx -P=A6_13_gmw81_P.mtx -E=A6_13_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_13.mtx
+mtx file of output L: A6_13_gmw81_L.mtx
+mtx file of output P: A6_13_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 301723 193168 0 0
+perm: 5 6 4 3 1 2
+../drivers/gmw -gmw1 ../data/33matrices/A6_13.mtx A6_13_gmw1_L.mtx -P=A6_13_gmw1_P.mtx -E=A6_13_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_13.mtx
+mtx file of output L: A6_13_gmw1_L.mtx
+mtx file of output P: A6_13_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 40061.1 455173 275161 0 0
+perm: 5 6 2 1 3 4
+../drivers/gmw -gmw2 ../data/33matrices/A6_13.mtx A6_13_gmw2_L.mtx -P=A6_13_gmw2_P.mtx -E=A6_13_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_13.mtx
+mtx file of output L: A6_13_gmw2_L.mtx
+mtx file of output P: A6_13_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 34277.7 34277.7 411083 411083 0 0
+perm: 5 6 2 1 3 4
+# factorizing ../data/33matrices/A6_14.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_14.mtx A6_14_gmw81_L.mtx -P=A6_14_gmw81_P.mtx -E=A6_14_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_14.mtx
+mtx file of output L: A6_14_gmw81_L.mtx
+mtx file of output P: A6_14_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 474887 0 0 0
+perm: 5 4 3 2 1 6
+../drivers/gmw -gmw1 ../data/33matrices/A6_14.mtx A6_14_gmw1_L.mtx -P=A6_14_gmw1_P.mtx -E=A6_14_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_14.mtx
+mtx file of output L: A6_14_gmw1_L.mtx
+mtx file of output P: A6_14_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 65274.6 505486 0 0 24877
+perm: 5 4 2 1 6 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_14.mtx A6_14_gmw2_L.mtx -P=A6_14_gmw2_P.mtx -E=A6_14_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_14.mtx
+mtx file of output L: A6_14_gmw2_L.mtx
+mtx file of output P: A6_14_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 55689.2 55689.2 247663 0 0 55689.2
+perm: 5 4 2 1 6 3
+# factorizing ../data/33matrices/A6_15.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_15.mtx A6_15_gmw81_L.mtx -P=A6_15_gmw81_P.mtx -E=A6_15_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_15.mtx
+mtx file of output L: A6_15_gmw81_L.mtx
+mtx file of output P: A6_15_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 804492 0 0 0
+perm: 4 5 3 6 2 1
+../drivers/gmw -gmw1 ../data/33matrices/A6_15.mtx A6_15_gmw1_L.mtx -P=A6_15_gmw1_P.mtx -E=A6_15_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_15.mtx
+mtx file of output L: A6_15_gmw1_L.mtx
+mtx file of output P: A6_15_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 84026.3 827745 0 0 0
+perm: 4 5 6 2 1 3
+../drivers/gmw -gmw2 ../data/33matrices/A6_15.mtx A6_15_gmw2_L.mtx -P=A6_15_gmw2_P.mtx -E=A6_15_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_15.mtx
+mtx file of output L: A6_15_gmw2_L.mtx
+mtx file of output P: A6_15_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 72887.6 72887.6 413419 0 0 0
+perm: 4 5 6 2 1 3
+# factorizing ../data/33matrices/A6_16.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_16.mtx A6_16_gmw81_L.mtx -P=A6_16_gmw81_P.mtx -E=A6_16_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_16.mtx
+mtx file of output L: A6_16_gmw81_L.mtx
+mtx file of output P: A6_16_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 301723 193168 0 0
+perm: 5 6 4 3 1 2
+../drivers/gmw -gmw1 ../data/33matrices/A6_16.mtx A6_16_gmw1_L.mtx -P=A6_16_gmw1_P.mtx -E=A6_16_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_16.mtx
+mtx file of output L: A6_16_gmw1_L.mtx
+mtx file of output P: A6_16_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 40061.1 455173 275161 0 0
+perm: 5 6 2 1 3 4
+../drivers/gmw -gmw2 ../data/33matrices/A6_16.mtx A6_16_gmw2_L.mtx -P=A6_16_gmw2_P.mtx -E=A6_16_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_16.mtx
+mtx file of output L: A6_16_gmw2_L.mtx
+mtx file of output P: A6_16_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 34277.7 34277.7 411083 411083 0 0
+perm: 5 6 2 1 3 4
+# factorizing ../data/33matrices/A6_17.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A6_17.mtx A6_17_gmw81_L.mtx -P=A6_17_gmw81_P.mtx -E=A6_17_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_17.mtx
+mtx file of output L: A6_17_gmw81_L.mtx
+mtx file of output P: A6_17_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 0 182546 196908 0 0
+perm: 5 6 4 3 1 2
+../drivers/gmw -gmw1 ../data/33matrices/A6_17.mtx A6_17_gmw1_L.mtx -P=A6_17_gmw1_P.mtx -E=A6_17_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_17.mtx
+mtx file of output L: A6_17_gmw1_L.mtx
+mtx file of output P: A6_17_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 65033.5 349898 261005 0 0
+perm: 5 6 1 2 3 4
+../drivers/gmw -gmw2 ../data/33matrices/A6_17.mtx A6_17_gmw2_L.mtx -P=A6_17_gmw2_P.mtx -E=A6_17_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A6_17.mtx
+mtx file of output L: A6_17_gmw2_L.mtx
+mtx file of output P: A6_17_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0 57109.3 317447 317447 0 0
+perm: 5 6 1 2 3 4
+# factorizing ../data/33matrices/A13_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A13_1.mtx A13_1_gmw81_L.mtx -P=A13_1_gmw81_P.mtx -E=A13_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A13_1.mtx
+mtx file of output L: A13_1_gmw81_L.mtx
+mtx file of output P: A13_1_gmw81_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0.008334 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 6 9 7 8 10 5 2 4 3 13 12 1 11
+../drivers/gmw -gmw1 ../data/33matrices/A13_1.mtx A13_1_gmw1_L.mtx -P=A13_1_gmw1_P.mtx -E=A13_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A13_1.mtx
+mtx file of output L: A13_1_gmw1_L.mtx
+mtx file of output P: A13_1_gmw1_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0.00846368 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 6 9 7 8 10 5 2 4 3 13 12 11 1
+../drivers/gmw -gmw2 ../data/33matrices/A13_1.mtx A13_1_gmw2_L.mtx -P=A13_1_gmw2_P.mtx -E=A13_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A13_1.mtx
+mtx file of output L: A13_1_gmw2_L.mtx
+mtx file of output P: A13_1_gmw2_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0.00443205 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 6 9 7 8 10 5 2 4 3 13 12 11 1
+# factorizing ../data/33matrices/A13_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A13_2.mtx A13_2_gmw81_L.mtx -P=A13_2_gmw81_P.mtx -E=A13_2_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A13_2.mtx
+mtx file of output L: A13_2_gmw81_L.mtx
+mtx file of output P: A13_2_gmw81_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0.00696186 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 6 9 7 8 10 5 3 4 2 12 13 1 11
+../drivers/gmw -gmw1 ../data/33matrices/A13_2.mtx A13_2_gmw1_L.mtx -P=A13_2_gmw1_P.mtx -E=A13_2_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A13_2.mtx
+mtx file of output L: A13_2_gmw1_L.mtx
+mtx file of output P: A13_2_gmw1_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0.00741068 0 0 0 0 0 0 0 0 0 0.000123727 0 0
+perm: 6 9 7 8 10 5 3 4 2 12 13 11 1
+../drivers/gmw -gmw2 ../data/33matrices/A13_2.mtx A13_2_gmw2_L.mtx -P=A13_2_gmw2_P.mtx -E=A13_2_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A13_2.mtx
+mtx file of output L: A13_2_gmw2_L.mtx
+mtx file of output P: A13_2_gmw2_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0.00376494 0 0 0 0 0 0 0 0 0 1.8556e-07 0 0
+perm: 6 9 7 8 10 5 3 4 2 12 13 11 1
+# factorizing ../data/33matrices/A15_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A15_1.mtx A15_1_gmw81_L.mtx -P=A15_1_gmw81_P.mtx -E=A15_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_1.mtx
+mtx file of output L: A15_1_gmw81_L.mtx
+mtx file of output P: A15_1_gmw81_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 1.32701e+06 0 3.17364e+06 253980 0 0 0 0 0 0 0 0 7.9794e+06 0
+perm: 13 7 12 6 15 11 10 1 14 3 4 9 8 2 5
+../drivers/gmw -gmw1 ../data/33matrices/A15_1.mtx A15_1_gmw1_L.mtx -P=A15_1_gmw1_P.mtx -E=A15_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_1.mtx
+mtx file of output L: A15_1_gmw1_L.mtx
+mtx file of output P: A15_1_gmw1_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 1.06613e+06 0 1.88492e+07 60789.8 0 0 104818 0 0 0 0 0 1.17698e+07 0
+perm: 13 7 12 6 15 11 10 1 3 9 8 4 2 5 14
+../drivers/gmw -gmw2 ../data/33matrices/A15_1.mtx A15_1_gmw2_L.mtx -P=A15_1_gmw2_P.mtx -E=A15_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_1.mtx
+mtx file of output L: A15_1_gmw2_L.mtx
+mtx file of output P: A15_1_gmw2_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 1.77079e+07 0 1.77079e+07 1.77079e+07 0 0 63574.4 0 0 0 0 0 1.77079e+07 0
+perm: 13 7 12 6 15 11 10 1 3 9 8 4 2 5 14
+# factorizing ../data/33matrices/A15_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A15_2.mtx A15_2_gmw81_L.mtx -P=A15_2_gmw81_P.mtx -E=A15_2_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_2.mtx
+mtx file of output L: A15_2_gmw81_L.mtx
+mtx file of output P: A15_2_gmw81_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 947.685 0 1695.96 1096.68 0 0 784.988 0 0 0 0 0 0 0
+perm: 7 15 6 11 1 12 3 13 9 14 10 8 2 4 5
+../drivers/gmw -gmw1 ../data/33matrices/A15_2.mtx A15_2_gmw1_L.mtx -P=A15_2_gmw1_P.mtx -E=A15_2_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_2.mtx
+mtx file of output L: A15_2_gmw1_L.mtx
+mtx file of output P: A15_2_gmw1_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 2088.64 0 1711.17 353.532 0 0 1351.77 0 0 0 0 0 0 0
+perm: 7 15 6 11 1 12 3 13 9 14 10 5 2 4 8
+../drivers/gmw -gmw2 ../data/33matrices/A15_2.mtx A15_2_gmw2_L.mtx -P=A15_2_gmw2_P.mtx -E=A15_2_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_2.mtx
+mtx file of output L: A15_2_gmw2_L.mtx
+mtx file of output P: A15_2_gmw2_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 1947.99 0 1947.99 322.242 0 0 1947.99 0 0 0 0 0 0 0
+perm: 7 15 6 11 1 12 3 13 9 14 10 5 2 4 8
+# factorizing ../data/33matrices/A15_3.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/A15_3.mtx A15_3_gmw81_L.mtx -P=A15_3_gmw81_P.mtx -E=A15_3_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_3.mtx
+mtx file of output L: A15_3_gmw81_L.mtx
+mtx file of output P: A15_3_gmw81_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 4.26805 0 8.14209 3.31815 0 0 5.05059 0 0 0 0 0 0 0
+perm: 7 13 6 15 11 12 10 1 14 3 9 8 4 2 5
+../drivers/gmw -gmw1 ../data/33matrices/A15_3.mtx A15_3_gmw1_L.mtx -P=A15_3_gmw1_P.mtx -E=A15_3_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_3.mtx
+mtx file of output L: A15_3_gmw1_L.mtx
+mtx file of output P: A15_3_gmw1_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 5.27524 0 16.4479 1.50301 0 0 8.22862 0 0 0 0 0 0 0
+perm: 7 13 6 15 11 12 10 1 14 3 9 5 2 4 8
+../drivers/gmw -gmw2 ../data/33matrices/A15_3.mtx A15_3_gmw2_L.mtx -P=A15_3_gmw2_P.mtx -E=A15_3_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/A15_3.mtx
+mtx file of output L: A15_3_gmw2_L.mtx
+mtx file of output P: A15_3_gmw2_P.mtx
+nrows=15, ncols=15, symm='S'
+modified: 0 4.96042 0 15.7677 1.35449 0 0 15.7677 0 0 0 0 0 0 0
+perm: 7 13 6 15 11 12 10 1 14 3 9 5 2 4 8
+# factorizing ../data/33matrices/B6_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B6_1.mtx B6_1_gmw81_L.mtx -P=B6_1_gmw81_P.mtx -E=B6_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B6_1.mtx
+mtx file of output L: B6_1_gmw81_L.mtx
+mtx file of output P: B6_1_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0.591337 0.216914 0.277807 0 0 0.117458
+perm: 4 5 3 2 6 1
+../drivers/gmw -gmw1 ../data/33matrices/B6_1.mtx B6_1_gmw1_L.mtx -P=B6_1_gmw1_P.mtx -E=B6_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B6_1.mtx
+mtx file of output L: B6_1_gmw1_L.mtx
+mtx file of output P: B6_1_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0.339896 0.277329 0.336007 0 0 0.203689
+perm: 4 5 1 6 2 3
+../drivers/gmw -gmw2 ../data/33matrices/B6_1.mtx B6_1_gmw2_L.mtx -P=B6_1_gmw2_P.mtx -E=B6_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B6_1.mtx
+mtx file of output L: B6_1_gmw2_L.mtx
+mtx file of output P: B6_1_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0.303123 0.303123 0.303123 0 0 0.303123
+perm: 4 5 1 6 2 3
+# factorizing ../data/33matrices/B6_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B6_2.mtx B6_2_gmw81_L.mtx -P=B6_2_gmw81_P.mtx -E=B6_2_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B6_2.mtx
+mtx file of output L: B6_2_gmw81_L.mtx
+mtx file of output P: B6_2_gmw81_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0.610145 0.283448 0.341173 0 0 0.295083
+perm: 4 5 3 2 6 1
+../drivers/gmw -gmw1 ../data/33matrices/B6_2.mtx B6_2_gmw1_L.mtx -P=B6_2_gmw1_P.mtx -E=B6_2_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B6_2.mtx
+mtx file of output L: B6_2_gmw1_L.mtx
+mtx file of output P: B6_2_gmw1_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0.457133 0.362022 0.440423 0 0 0.36326
+perm: 4 5 1 6 2 3
+../drivers/gmw -gmw2 ../data/33matrices/B6_2.mtx B6_2_gmw2_L.mtx -P=B6_2_gmw2_P.mtx -E=B6_2_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B6_2.mtx
+mtx file of output L: B6_2_gmw2_L.mtx
+mtx file of output P: B6_2_gmw2_P.mtx
+nrows=6, ncols=6, symm='S'
+modified: 0.415595 0.415595 0.415595 0 0 0.415595
+perm: 4 5 1 6 2 3
+# factorizing ../data/33matrices/B7_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_1.mtx B7_1_gmw81_L.mtx -P=B7_1_gmw81_P.mtx -E=B7_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_1.mtx
+mtx file of output L: B7_1_gmw81_L.mtx
+mtx file of output P: B7_1_gmw81_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 36.8948 0 72.3794 179.782 142.874 0 0
+perm: 2 6 3 5 4 1 7
+../drivers/gmw -gmw1 ../data/33matrices/B7_1.mtx B7_1_gmw1_L.mtx -P=B7_1_gmw1_P.mtx -E=B7_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_1.mtx
+mtx file of output L: B7_1_gmw1_L.mtx
+mtx file of output P: B7_1_gmw1_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 32.9253 0 105.921 222.451 147.464 0 0
+perm: 2 6 7 1 3 4 5
+../drivers/gmw -gmw2 ../data/33matrices/B7_1.mtx B7_1_gmw2_L.mtx -P=B7_1_gmw2_P.mtx -E=B7_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_1.mtx
+mtx file of output L: B7_1_gmw2_L.mtx
+mtx file of output P: B7_1_gmw2_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 28.1232 0 92.0839 179.446 179.446 0 0
+perm: 2 6 7 1 3 4 5
+# factorizing ../data/33matrices/B7_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_2.mtx B7_2_gmw81_L.mtx -P=B7_2_gmw81_P.mtx -E=B7_2_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_2.mtx
+mtx file of output L: B7_2_gmw81_L.mtx
+mtx file of output P: B7_2_gmw81_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 14.3764 0 0 0 6.39617 0
+perm: 1 4 7 3 5 2 6
+../drivers/gmw -gmw1 ../data/33matrices/B7_2.mtx B7_2_gmw1_L.mtx -P=B7_2_gmw1_P.mtx -E=B7_2_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_2.mtx
+mtx file of output L: B7_2_gmw1_L.mtx
+mtx file of output P: B7_2_gmw1_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 20.2488 0 0 0 8.40858 0
+perm: 1 4 7 3 5 6 2
+../drivers/gmw -gmw2 ../data/33matrices/B7_2.mtx B7_2_gmw2_L.mtx -P=B7_2_gmw2_P.mtx -E=B7_2_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_2.mtx
+mtx file of output L: B7_2_gmw2_L.mtx
+mtx file of output P: B7_2_gmw2_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 10.7843 0 0 0 6.79218 0
+perm: 1 4 7 3 5 6 2
+# factorizing ../data/33matrices/B7_3.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_3.mtx B7_3_gmw81_L.mtx -P=B7_3_gmw81_P.mtx -E=B7_3_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_3.mtx
+mtx file of output L: B7_3_gmw81_L.mtx
+mtx file of output P: B7_3_gmw81_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 21.8195 0 0 0 5.93289 0
+perm: 1 4 7 3 5 2 6
+../drivers/gmw -gmw1 ../data/33matrices/B7_3.mtx B7_3_gmw1_L.mtx -P=B7_3_gmw1_P.mtx -E=B7_3_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_3.mtx
+mtx file of output L: B7_3_gmw1_L.mtx
+mtx file of output P: B7_3_gmw1_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 28.9468 0 0 0 10.1652 0
+perm: 1 4 7 3 5 6 2
+../drivers/gmw -gmw2 ../data/33matrices/B7_3.mtx B7_3_gmw2_L.mtx -P=B7_3_gmw2_P.mtx -E=B7_3_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_3.mtx
+mtx file of output L: B7_3_gmw2_L.mtx
+mtx file of output P: B7_3_gmw2_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 15.2743 0 0 0 8.20338 0
+perm: 1 4 7 3 5 6 2
+# factorizing ../data/33matrices/B7_4.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B7_4.mtx B7_4_gmw81_L.mtx -P=B7_4_gmw81_P.mtx -E=B7_4_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_4.mtx
+mtx file of output L: B7_4_gmw81_L.mtx
+mtx file of output P: B7_4_gmw81_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 26.5652 0 0 0 6.59341 0
+perm: 1 4 7 3 5 2 6
+../drivers/gmw -gmw1 ../data/33matrices/B7_4.mtx B7_4_gmw1_L.mtx -P=B7_4_gmw1_P.mtx -E=B7_4_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_4.mtx
+mtx file of output L: B7_4_gmw1_L.mtx
+mtx file of output P: B7_4_gmw1_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 34.9537 0 0 0 11.9062 0
+perm: 1 4 7 3 5 6 2
+../drivers/gmw -gmw2 ../data/33matrices/B7_4.mtx B7_4_gmw2_L.mtx -P=B7_4_gmw2_P.mtx -E=B7_4_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B7_4.mtx
+mtx file of output L: B7_4_gmw2_L.mtx
+mtx file of output P: B7_4_gmw2_P.mtx
+nrows=7, ncols=7, symm='S'
+modified: 0 18.4195 0 0 0 9.59721 0
+perm: 1 4 7 3 5 6 2
+# factorizing ../data/33matrices/B8_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B8_1.mtx B8_1_gmw81_L.mtx -P=B8_1_gmw81_P.mtx -E=B8_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B8_1.mtx
+mtx file of output L: B8_1_gmw81_L.mtx
+mtx file of output P: B8_1_gmw81_P.mtx
+nrows=8, ncols=8, symm='S'
+modified: 0 0 0 0 0 0 0 3.6771
+perm: 3 2 6 4 5 8 7 1
+../drivers/gmw -gmw1 ../data/33matrices/B8_1.mtx B8_1_gmw1_L.mtx -P=B8_1_gmw1_P.mtx -E=B8_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B8_1.mtx
+mtx file of output L: B8_1_gmw1_L.mtx
+mtx file of output P: B8_1_gmw1_P.mtx
+nrows=8, ncols=8, symm='S'
+modified: 0 0 0 0 0 0 0 3.67719
+perm: 3 2 6 4 5 7 1 8
+../drivers/gmw -gmw2 ../data/33matrices/B8_1.mtx B8_1_gmw2_L.mtx -P=B8_1_gmw2_P.mtx -E=B8_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B8_1.mtx
+mtx file of output L: B8_1_gmw2_L.mtx
+mtx file of output P: B8_1_gmw2_P.mtx
+nrows=8, ncols=8, symm='S'
+modified: 0.00457708 0 0 0 0 0 0 1.84325
+perm: 3 2 6 4 5 7 1 8
+# factorizing ../data/33matrices/B13_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B13_1.mtx B13_1_gmw81_L.mtx -P=B13_1_gmw81_P.mtx -E=B13_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B13_1.mtx
+mtx file of output L: B13_1_gmw81_L.mtx
+mtx file of output P: B13_1_gmw81_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 2 11 10 12 1 8 7 9 13 6 4 3 5
+../drivers/gmw -gmw1 ../data/33matrices/B13_1.mtx B13_1_gmw1_L.mtx -P=B13_1_gmw1_P.mtx -E=B13_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B13_1.mtx
+mtx file of output L: B13_1_gmw1_L.mtx
+mtx file of output P: B13_1_gmw1_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 2 11 10 12 1 8 7 9 13 6 4 3 5
+../drivers/gmw -gmw2 ../data/33matrices/B13_1.mtx B13_1_gmw2_L.mtx -P=B13_1_gmw2_P.mtx -E=B13_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B13_1.mtx
+mtx file of output L: B13_1_gmw2_L.mtx
+mtx file of output P: B13_1_gmw2_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 2 11 10 12 1 8 7 9 13 6 4 3 5
+# factorizing ../data/33matrices/B13_2.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B13_2.mtx B13_2_gmw81_L.mtx -P=B13_2_gmw81_P.mtx -E=B13_2_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B13_2.mtx
+mtx file of output L: B13_2_gmw81_L.mtx
+mtx file of output P: B13_2_gmw81_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0 0 10.9504 13.3016 0.128657 0 0 0 0 0 0 0 0
+perm: 2 11 10 12 1 13 7 9 3 4 8 6 5
+../drivers/gmw -gmw1 ../data/33matrices/B13_2.mtx B13_2_gmw1_L.mtx -P=B13_2_gmw1_P.mtx -E=B13_2_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B13_2.mtx
+mtx file of output L: B13_2_gmw1_L.mtx
+mtx file of output P: B13_2_gmw1_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0 0 13.6336 39.8108 0.118277 0 0 0 0 0 0 0 0
+perm: 2 11 10 12 1 13 7 9 8 6 4 5 3
+../drivers/gmw -gmw2 ../data/33matrices/B13_2.mtx B13_2_gmw2_L.mtx -P=B13_2_gmw2_P.mtx -E=B13_2_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B13_2.mtx
+mtx file of output L: B13_2_gmw2_L.mtx
+mtx file of output P: B13_2_gmw2_P.mtx
+nrows=13, ncols=13, symm='S'
+modified: 0 0 36.683 36.683 36.683 0 0 0 0 0 0 0 0
+perm: 2 11 10 12 1 13 7 9 8 6 4 5 3
+# factorizing ../data/33matrices/B26_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B26_1.mtx B26_1_gmw81_L.mtx -P=B26_1_gmw81_P.mtx -E=B26_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B26_1.mtx
+mtx file of output L: B26_1_gmw81_L.mtx
+mtx file of output P: B26_1_gmw81_P.mtx
+nrows=26, ncols=26, symm='S'
+modified: 0 0 0 0 0 0 0 0 0 0.593967 0 0 0 0 0 1.17488 0 0 0 0 0 0 0 0 0 0
+perm: 23 4 24 18 12 22 9 20 17 8 7 1 21 15 19 26 13 5 14 2 25 6 11 3 16 10
+../drivers/gmw -gmw1 ../data/33matrices/B26_1.mtx B26_1_gmw1_L.mtx -P=B26_1_gmw1_P.mtx -E=B26_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B26_1.mtx
+mtx file of output L: B26_1_gmw1_L.mtx
+mtx file of output P: B26_1_gmw1_P.mtx
+nrows=26, ncols=26, symm='S'
+modified: 0 0 0.559751 0 0 0 0 0 0 0.536481 0 0 0 0 0 0.793314 0 0 0 0 0 0 0 0 0 0
+perm: 23 4 24 18 12 22 9 20 17 8 7 1 21 15 19 26 13 5 14 2 25 6 11 3 10 16
+../drivers/gmw -gmw2 ../data/33matrices/B26_1.mtx B26_1_gmw2_L.mtx -P=B26_1_gmw2_P.mtx -E=B26_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B26_1.mtx
+mtx file of output L: B26_1_gmw2_L.mtx
+mtx file of output P: B26_1_gmw2_P.mtx
+nrows=26, ncols=26, symm='S'
+modified: 0 0 0.444585 0 0 0 0 0 0 0.444585 0 0 0 0 0 0.444585 0 0 0 0 0 0 0 0 0 0
+perm: 23 4 24 18 12 22 9 20 17 8 7 1 21 15 19 26 13 5 14 2 25 6 11 3 10 16
+# factorizing ../data/33matrices/B55_1.mtx ...
+../drivers/gmw -gmw81 ../data/33matrices/B55_1.mtx B55_1_gmw81_L.mtx -P=B55_1_gmw81_P.mtx -E=B55_1_gmw81_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B55_1.mtx
+mtx file of output L: B55_1_gmw81_L.mtx
+mtx file of output P: B55_1_gmw81_P.mtx
+nrows=55, ncols=55, symm='S'
+modified: 0.637854 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 12 41 26 54 45 4 48 2 42 51 53 3 39 44 28 50 32 30 33 38 29 20 40 36 47 43 35 17 6 34 16 37 7 55 5 31 14 11 8 18 23 46 52 25 21 27 13 9 49 10 15 19 22 24 1
+../drivers/gmw -gmw1 ../data/33matrices/B55_1.mtx B55_1_gmw1_L.mtx -P=B55_1_gmw1_P.mtx -E=B55_1_gmw1_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B55_1.mtx
+mtx file of output L: B55_1_gmw1_L.mtx
+mtx file of output P: B55_1_gmw1_P.mtx
+nrows=55, ncols=55, symm='S'
+modified: 0.637854 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 12 41 26 54 45 4 48 2 42 51 53 3 39 44 28 50 32 30 33 38 29 20 40 36 47 43 35 17 6 34 16 37 7 55 5 31 14 11 8 18 23 46 52 25 21 27 13 9 49 10 15 19 22 24 1
+../drivers/gmw -gmw2 ../data/33matrices/B55_1.mtx B55_1_gmw2_L.mtx -P=B55_1_gmw2_P.mtx -E=B55_1_gmw2_E.mtx
+------
+mtx file of input  A: ../data/33matrices/B55_1.mtx
+mtx file of output L: B55_1_gmw2_L.mtx
+mtx file of output P: B55_1_gmw2_P.mtx
+nrows=55, ncols=55, symm='S'
+modified: 0.318927 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+perm: 12 41 26 54 45 4 48 2 42 51 53 3 39 44 28 50 32 30 33 38 29 20 40 36 47 43 35 17 6 34 16 37 7 55 5 31 14 11 8 18 23 46 52 25 21 27 13 9 49 10 15 19 22 24 1
+diary off

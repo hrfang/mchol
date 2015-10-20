@@ -1,0 +1,240 @@
+octave:5> test_se_mod
+# processing ../data/mtx/FIRST.mtx ...
+se90: r2=2775.633, zeta=0
+res=0.000000
+se99: r2=1.759, zeta=10
+res=0.000000
+se1: r2=3.346, zeta=4
+res=0.000000
+# processing ../data/mtx/A6_1.mtx ...
+se90: r2=357.738, zeta=1
+res=0.000000
+se99: r2=1.079, zeta=9
+res=0.000000
+se1: r2=2.181, zeta=4
+res=0.000000
+# processing ../data/mtx/A6_2.mtx ...
+se90: r2=1.175, zeta=5
+res=0.000000
+se99: r2=1.180, zeta=7
+res=0.000000
+se1: r2=2.360, zeta=3
+res=0.000000
+# processing ../data/mtx/A6_3.mtx ...
+se90: r2=1.200, zeta=5
+res=0.000000
+se99: r2=1.208, zeta=6
+res=0.000000
+se1: r2=2.416, zeta=2
+res=0.000000
+# processing ../data/mtx/A6_4.mtx ...
+se90: r2=1.275, zeta=5
+res=0.000000
+se99: r2=1.270, zeta=8
+res=0.000000
+se1: r2=2.541, zeta=3
+res=0.000000
+# processing ../data/mtx/A6_5.mtx ...
+se90: r2=6.503, zeta=3
+res=0.000000
+se99: r2=1.448, zeta=9
+res=0.000000
+se1: r2=2.895, zeta=4
+res=0.000000
+# processing ../data/mtx/A6_6.mtx ...
+se90: r2=2.947, zeta=5
+res=0.000000
+se99: r2=1.201, zeta=10
+res=0.000000
+se1: r2=2.403, zeta=6
+res=0.000000
+# processing ../data/mtx/A6_7.mtx ...
+se90: r2=46171.726, zeta=5
+res=0.000000
+se99: r2=1.334, zeta=10
+res=0.000000
+se1: r2=2.109, zeta=10
+res=0.000000
+# processing ../data/mtx/A6_8.mtx ...
+se90: r2=6.611, zeta=5
+res=0.000000
+se99: r2=1.138, zeta=10
+res=0.000000
+se1: r2=2.277, zeta=7
+res=0.000000
+# processing ../data/mtx/A6_9.mtx ...
+se90: r2=47.221, zeta=5
+res=0.000000
+se99: r2=1.125, zeta=10
+res=0.000000
+se1: r2=2.249, zeta=8
+res=0.000000
+# processing ../data/mtx/A6_10.mtx ...
+se90: r2=5392714.105, zeta=0
+res=0.000000
+se99: r2=1.076, zeta=11
+res=0.000000
+se1: r2=2.031, zeta=7
+res=0.000000
+# processing ../data/mtx/A6_11.mtx ...
+se90: r2=7256639.774, zeta=0
+res=0.000000
+se99: r2=1.648, zeta=7
+res=0.000000
+se1: r2=1.737, zeta=7
+res=0.000000
+# processing ../data/mtx/A6_12.mtx ...
+se90: r2=1.200, zeta=5
+res=0.000000
+se99: r2=1.208, zeta=6
+res=0.000000
+se1: r2=2.416, zeta=2
+res=0.000000
+# processing ../data/mtx/A6_13.mtx ...
+se90: r2=1.322, zeta=5
+res=0.000000
+se99: r2=1.322, zeta=6
+res=0.000000
+se1: r2=2.643, zeta=1
+res=0.000000
+# processing ../data/mtx/A6_14.mtx ...
+se90: r2=1.200, zeta=5
+res=0.000000
+se99: r2=1.208, zeta=6
+res=0.000000
+se1: r2=2.416, zeta=2
+res=0.000000
+# processing ../data/mtx/A6_15.mtx ...
+se90: r2=1.090, zeta=5
+res=0.000000
+se99: r2=1.090, zeta=5
+res=0.000000
+se1: r2=2.181, zeta=1
+res=0.000000
+# processing ../data/mtx/A6_16.mtx ...
+se90: r2=1.322, zeta=5
+res=0.000000
+se99: r2=1.322, zeta=6
+res=0.000000
+se1: r2=2.643, zeta=1
+res=0.000000
+# processing ../data/mtx/A6_17.mtx ...
+se90: r2=1.246, zeta=5
+res=0.000000
+se99: r2=1.246, zeta=6
+res=0.000000
+se1: r2=2.492, zeta=1
+res=0.000000
+# processing ../data/mtx/A13_1.mtx ...
+se90: r2=8937.925, zeta=5
+res=0.000000
+se99: r2=1.183, zeta=10
+res=0.000000
+se1: r2=2.257, zeta=9
+res=0.000000
+# processing ../data/mtx/A13_2.mtx ...
+se90: r2=15087.942, zeta=5
+res=0.000000
+se99: r2=1.317, zeta=10
+res=0.000000
+se1: r2=2.627, zeta=8
+res=0.000000
+# processing ../data/mtx/A15_1.mtx ...
+se90: r2=25479767.667, zeta=5
+res=0.000000
+se99: r2=1.895, zeta=11
+res=0.000000
+se1: r2=3.815, zeta=8
+res=0.000000
+# processing ../data/mtx/A15_2.mtx ...
+se90: r2=389369.446, zeta=3
+res=0.000000
+se99: r2=1.449, zeta=10
+res=0.000000
+se1: r2=2.887, zeta=8
+res=0.000000
+# processing ../data/mtx/A15_3.mtx ...
+se90: r2=2.183, zeta=5
+res=0.000000
+se99: r2=1.503, zeta=10
+res=0.000000
+se1: r2=3.006, zeta=6
+res=0.000000
+# processing ../data/mtx/B6_1.mtx ...
+se90: r2=52.418, zeta=0
+res=0.000000
+se99: r2=1.773, zeta=8
+res=0.000000
+se1: r2=3.545, zeta=2
+res=0.000000
+# processing ../data/mtx/B6_2.mtx ...
+se90: r2=45.866, zeta=0
+res=0.000000
+se99: r2=2.315, zeta=7
+res=0.000000
+se1: r2=4.630, zeta=2
+res=0.000000
+# processing ../data/mtx/B7_1.mtx ...
+se90: r2=3.450, zeta=2
+res=0.000000
+se99: r2=1.067, zeta=2
+res=0.000000
+se1: r2=2.005, zeta=2
+res=0.000000
+# processing ../data/mtx/B7_2.mtx ...
+se90: r2=11.005, zeta=0
+res=0.000000
+se99: r2=1.309, zeta=7
+res=0.000000
+se1: r2=2.618, zeta=1
+res=0.000000
+# processing ../data/mtx/B7_3.mtx ...
+se90: r2=6.998, zeta=0
+res=0.000000
+se99: r2=1.227, zeta=6
+res=0.000000
+se1: r2=2.453, zeta=1
+res=0.000000
+# processing ../data/mtx/B7_4.mtx ...
+se90: r2=5.325, zeta=1
+res=0.000000
+se99: r2=1.189, zeta=6
+res=0.000000
+se1: r2=2.378, zeta=1
+res=0.000000
+# processing ../data/mtx/B8_1.mtx ...
+se90: r2=871.219, zeta=5
+res=0.000000
+se99: r2=1.279, zeta=10
+res=0.000000
+se1: r2=2.548, zeta=10
+res=0.000000
+# processing ../data/mtx/B13_1.mtx ...
+se90: r2=27.150, zeta=5
+res=0.000000
+se99: r2=0.000, zeta=9
+res=0.000000
+se1: r2=0.000, zeta=9
+res=0.000000
+# processing ../data/mtx/B13_2.mtx ...
+se90: r2=7.846, zeta=5
+res=0.000000
+se99: r2=1.291, zeta=10
+res=0.000000
+se1: r2=2.581, zeta=6
+res=0.000000
+# processing ../data/mtx/B26_1.mtx ...
+se90: r2=2.234, zeta=3
+res=0.000000
+se99: r2=2.364, zeta=7
+res=0.000000
+se1: r2=5.827, zeta=1
+res=0.000000
+# processing ../data/mtx/B55_1.mtx ...
+se90: r2=1.714, zeta=5
+res=0.000000
+se99: r2=1.714, zeta=6
+res=0.000000
+se1: r2=3.428, zeta=1
+res=0.000000
+octave:6> diary off

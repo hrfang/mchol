@@ -1,0 +1,24 @@
+test_rosenbrock
+We minimize Rosenbrock's function, starting with the initial x0=[0;0].
+Newton's method ends up with x=[1;1], f(x)=1.6677e-17.
+    number of iterations (gradient evaluations, Hessian evaluations): 15
+    number of function evaluations in line search: 18 (total # function evaluations 33)
+The modified Newton method with gmw81 ends up with x=[1;1], f(x)=1.6677e-17.
+    number of iterations (gradient evaluations, Hessian evaluations): 15
+    number of function evaluations in line search: 18 (total # function evaluations 33)
+The modified Newton method with gmw1 ends up with x=[1;1], f(x)=1.6677e-17.
+    number of iterations (gradient evaluations, Hessian evaluations): 15
+    number of function evaluations in line search: 18 (total # function evaluations 33)
+The modified Newton method with gmw2 ends up with x=[1;1], f(x)=1.6677e-17.
+    number of iterations (gradient evaluations, Hessian evaluations): 15
+    number of function evaluations in line search: 18 (total # function evaluations 33)
+The modified Newton method with se90 ends up with x=[1;1], f(x)=1.6677e-17.
+    number of iterations (gradient evaluations, Hessian evaluations): 15
+    number of function evaluations in line search: 18 (total # function evaluations 33)
+The modified Newton method with se99 ends up with x=[1;1], f(x)=1.6677e-17.
+    number of iterations (gradient evaluations, Hessian evaluations): 15
+    number of function evaluations in line search: 18 (total # function evaluations 33)
+The modified Newton method with se1 ends up with x=[1;1], f(x)=1.6677e-17.
+    number of iterations (gradient evaluations, Hessian evaluations): 15
+    number of function evaluations in line search: 18 (total # function evaluations 33)
+diary off

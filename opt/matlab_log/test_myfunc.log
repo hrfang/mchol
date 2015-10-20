@@ -1,0 +1,24 @@
+test_myfunc
+We minimize a function defined in myfunc.m, starting with the initial x0=[2;3].
+Newton's method ends up with x=[-17.8405;6.73031], f(x)=4.90487e-07.
+    number of iterations (gradient evaluations, Hessian evaluations): 20
+    number of function evaluations in line search: 19 (total # function evaluations 39)
+The modified Newton method with gmw81 ends up with x=[1;1], f(x)=3.16808e-19.
+    number of iterations (gradient evaluations, Hessian evaluations): 16
+    number of function evaluations in line search: 19 (total # function evaluations 35)
+The modified Newton method with gmw1 ends up with x=[1;1], f(x)=3.16808e-19.
+    number of iterations (gradient evaluations, Hessian evaluations): 16
+    number of function evaluations in line search: 19 (total # function evaluations 35)
+The modified Newton method with gmw2 ends up with x=[1;1], f(x)=3.16808e-19.
+    number of iterations (gradient evaluations, Hessian evaluations): 16
+    number of function evaluations in line search: 19 (total # function evaluations 35)
+The modified Newton method with se90 ends up with x=[1;1], f(x)=3.16808e-19.
+    number of iterations (gradient evaluations, Hessian evaluations): 16
+    number of function evaluations in line search: 19 (total # function evaluations 35)
+The modified Newton method with se99 ends up with x=[1;1], f(x)=3.16808e-19.
+    number of iterations (gradient evaluations, Hessian evaluations): 16
+    number of function evaluations in line search: 19 (total # function evaluations 35)
+The modified Newton method with se1 ends up with x=[1;1], f(x)=3.16808e-19.
+    number of iterations (gradient evaluations, Hessian evaluations): 16
+    number of function evaluations in line search: 19 (total # function evaluations 35)
+diary off

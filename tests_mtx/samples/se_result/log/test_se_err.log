@@ -1,0 +1,342 @@
+octave:3> test_se_err
+# processing ../data/33matrices/FIRST.mtx ...
+se90:
+modification max: -3658.900000, min: 4271.900000, diagonal factor: 1.878292
+r2=12446.972361, zeta=0
+se99:
+modification max: -0.000000, min: 0.664937, diagonal factor: 1.000000
+r2=1.758739, zeta=10
+se1:
+modification max: -0.000000, min: 1.265042, diagonal factor: 1.000000
+r2=3.346000, zeta=4
+# processing ../data/33matrices/A6_1.mtx ...
+se90:
+modification max: -30993.363420, min: 37126.062910, diagonal factor: 1.580687
+r2=4327.584670, zeta=1
+se99:
+modification max: -394.172668, min: 411.239864, diagonal factor: 11.818926
+r2=284.027132, zeta=9
+se1:
+modification max: -394.470098, min: 420.699076, diagonal factor: 11.670526
+r2=284.027132, zeta=4
+# processing ../data/33matrices/A6_2.mtx ...
+se90:
+modification max: -1471066.053919, min: 1767356.408071, diagonal factor: 3.231505
+r2=28.831820, zeta=5
+se99:
+modification max: -1609077.758391, min: 1767944.949117, diagonal factor: 3.379822
+r2=28.831820, zeta=7
+se1:
+modification max: -1609076.273052, min: 1919845.189465, diagonal factor: 3.214898
+r2=28.831820, zeta=3
+# processing ../data/33matrices/A6_3.mtx ...
+se90:
+modification max: -1296636.787048, min: 1518283.067093, diagonal factor: 2.862052
+r2=28.424760, zeta=5
+se99:
+modification max: -1385248.600000, min: 1503579.645031, diagonal factor: 2.907637
+r2=26.298125, zeta=6
+se1:
+modification max: -1385248.600000, min: 1621907.850005, diagonal factor: 2.784366
+r2=26.298125, zeta=2
+# processing ../data/33matrices/A6_4.mtx ...
+se90:
+modification max: -13160.340000, min: 86200.847440, diagonal factor: 1.687634
+r2=1.275250, zeta=5
+se99:
+modification max: -0.000000, min: 85876.814405, diagonal factor: 1.000000
+r2=1.270457, zeta=8
+se1:
+modification max: -0.000000, min: 171752.568814, diagonal factor: 1.000000
+r2=2.540897, zeta=3
+# processing ../data/33matrices/A6_5.mtx ...
+se90:
+modification max: -50430.053954, min: 53263.655246, diagonal factor: 14.312576
+r2=2373.890126, zeta=3
+se99:
+modification max: -0.000000, min: 315.386325, diagonal factor: 1.000000
+r2=1.447693, zeta=9
+se1:
+modification max: -0.000000, min: 630.767610, diagonal factor: 1.000000
+r2=2.895363, zeta=4
+# processing ../data/33matrices/A6_6.mtx ...
+se90:
+modification max: -9208115.226327, min: 9216344.202611, diagonal factor: 16.910593
+r2=55330.211608, zeta=5
+se99:
+modification max: -9211114.895871, min: 9213435.497015, diagonal factor: 16.910465
+r2=55330.211608, zeta=10
+se1:
+modification max: -9211114.895871, min: 9215437.253840, diagonal factor: 16.908182
+r2=55330.211608, zeta=6
+# processing ../data/33matrices/A6_7.mtx ...
+se90:
+modification max: -209495174.417863, min: 258710806.000000, diagonal factor: 1.045629
+r2=230429.803619, zeta=5
+se99:
+modification max: -4593222.809899, min: 4595034.524367, diagonal factor: 14.082239
+r2=39686.690723, zeta=10
+se1:
+modification max: -4593223.021272, min: 4595904.627901, diagonal factor: 14.080690
+r2=39686.690723, zeta=10
+# processing ../data/33matrices/A6_8.mtx ...
+se90:
+modification max: -29650715.639518, min: 29671743.975055, diagonal factor: 13.579869
+r2=134719.299684, zeta=5
+se99:
+modification max: -27983409.156946, min: 27985574.964849, diagonal factor: 14.083218
+r2=157725.980028, zeta=10
+se1:
+modification max: -27983409.156946, min: 27987533.812809, diagonal factor: 14.082646
+r2=157725.980028, zeta=7
+# processing ../data/33matrices/A6_9.mtx ...
+se90:
+modification max: -498602234.541867, min: 255679776.868982, diagonal factor: 10.079998
+r2=1110219.422811, zeta=5
+se99:
+modification max: -137643634.424051, min: 152094829.353586, diagonal factor: 17.418161
+r2=872818.290404, zeta=10
+se1:
+modification max: -137643634.424051, min: 152096852.699891, diagonal factor: 17.418035
+r2=872818.290404, zeta=8
+# processing ../data/33matrices/A6_10.mtx ...
+se90:
+modification max: 358736300000000000.000000, min: 650486469999999872.000000, diagonal factor: 1.388932
+r2=6649034.714846, zeta=0
+se99:
+modification max: -16426727503015008.000000, min: 16426905235873184.000000, diagonal factor: 53.791658
+r2=3951295.339687, zeta=11
+se1:
+modification max: -16426727503015008.000000, min: 16426998647452512.000000, diagonal factor: 53.791506
+r2=3951295.339687, zeta=7
+# processing ../data/33matrices/A6_11.mtx ...
+se90:
+modification max: 367417729999999930665188634656768.000000, min: 666228250000000010896467958956032.000000, diagonal factor: 1.388932
+r2=8947192.650118, zeta=0
+se99:
+modification max: -146054540388552461525540258447360.000000, min: 84387322718973168469792245415936.000000, diagonal factor: 1.744094
+r2=1133289.730050, zeta=7
+se1:
+modification max: -146054540388552461525540258447360.000000, min: 84387264640476425195759853371392.000000, diagonal factor: 1.744094
+r2=1133288.950078, zeta=7
+# processing ../data/33matrices/A6_12.mtx ...
+se90:
+modification max: -1296636.787048, min: 1518283.067093, diagonal factor: 2.862052
+r2=28.424760, zeta=5
+se99:
+modification max: -1385248.600000, min: 1503579.645031, diagonal factor: 2.907637
+r2=26.298125, zeta=6
+se1:
+modification max: -1385248.600000, min: 1621907.850005, diagonal factor: 2.784366
+r2=26.298125, zeta=2
+# processing ../data/33matrices/A6_13.mtx ...
+se90:
+modification max: -67137.418977, min: 204706.479549, diagonal factor: 3.318597
+r2=3.098447, zeta=5
+se99:
+modification max: -67137.418977, min: 204702.860881, diagonal factor: 3.318648
+r2=3.098447, zeta=6
+se1:
+modification max: -67137.418977, min: 387592.427712, diagonal factor: 1.961476
+r2=3.098447, zeta=1
+# processing ../data/33matrices/A6_14.mtx ...
+se90:
+modification max: -1296636.787048, min: 1518283.067093, diagonal factor: 2.862052
+r2=28.424760, zeta=5
+se99:
+modification max: -1385248.600000, min: 1503579.645031, diagonal factor: 2.907637
+r2=26.298125, zeta=6
+se1:
+modification max: -1385248.600000, min: 1621907.850005, diagonal factor: 2.784366
+r2=26.298125, zeta=2
+# processing ../data/33matrices/A6_15.mtx ...
+se90:
+modification max: -255025.970000, min: 424104.238317, diagonal factor: 1.939447
+r2=2.734888, zeta=5
+se99:
+modification max: -255025.970000, min: 424103.024347, diagonal factor: 1.939451
+r2=2.734880, zeta=5
+se1:
+modification max: -255025.970000, min: 593174.602611, diagonal factor: 1.557285
+r2=3.825159, zeta=1
+# processing ../data/33matrices/A6_16.mtx ...
+se90:
+modification max: -67137.418977, min: 204706.479549, diagonal factor: 3.318597
+r2=3.098447, zeta=5
+se99:
+modification max: -67137.418977, min: 204702.860881, diagonal factor: 3.318648
+r2=3.098447, zeta=6
+se1:
+modification max: -67137.418977, min: 387592.427712, diagonal factor: 1.961476
+r2=3.098447, zeta=1
+# processing ../data/33matrices/A6_17.mtx ...
+se90:
+modification max: -28709.496104, min: 142491.602610, diagonal factor: 4.397134
+r2=3.449453, zeta=5
+se99:
+modification max: -28709.496104, min: 217697.593927, diagonal factor: 3.326252
+r2=2.901790, zeta=6
+se1:
+modification max: -28709.496104, min: 378430.927792, diagonal factor: 1.982994
+r2=2.933942, zeta=1
+# processing ../data/33matrices/A13_1.mtx ...
+se90:
+modification max: -73104.061754, min: 73120.321910, diagonal factor: 1.591253
+r2=19765265.145492, zeta=5
+se99:
+modification max: -0.017258, min: 0.021634, diagonal factor: 3067.099481
+r2=9374.646963, zeta=10
+se1:
+modification max: -0.013283, min: 0.021634, diagonal factor: 3215.569471
+r2=9374.646963, zeta=9
+# processing ../data/33matrices/A13_2.mtx ...
+se90:
+modification max: -123961.602635, min: 124015.789701, diagonal factor: 2.026074
+r2=56802856.042523, zeta=5
+se99:
+modification max: -0.056680, min: 0.060207, diagonal factor: 3200.614642
+r2=39423.007395, zeta=10
+se1:
+modification max: -0.053171, min: 0.060207, diagonal factor: 3285.249380
+r2=39423.007395, zeta=8
+# processing ../data/33matrices/A15_1.mtx ...
+se90:
+modification max: -111458425064496.640625, min: 195242504182019.625000, diagonal factor: 1.346103
+r2=59226862.859254, zeta=5
+se99:
+modification max: -211126015750.903687, min: 211126546090.000031, diagonal factor: 49.039673
+r2=1471508.535803, zeta=11
+se1:
+modification max: -211126015750.903687, min: 211126546090.000031, diagonal factor: 49.039627
+r2=1471508.535803, zeta=8
+# processing ../data/33matrices/A15_2.mtx ...
+se90:
+modification max: -13932371514.806606, min: 16527615855.193401, diagonal factor: 4.060487
+r2=30569876.662238, zeta=3
+se99:
+modification max: -296312415.288403, min: 296314296.281453, diagonal factor: 27.154524
+r2=5323607.350831, zeta=10
+se1:
+modification max: -296311388.557690, min: 296314296.281453, diagonal factor: 27.154571
+r2=5323607.350831, zeta=8
+# processing ../data/33matrices/A15_3.mtx ...
+se90:
+modification max: -702.975775, min: 1011.962273, diagonal factor: 35.871163
+r2=4694.741533, zeta=5
+se99:
+modification max: -0.000000, min: 6.254349, diagonal factor: 1.000000
+r2=1.503052, zeta=10
+se1:
+modification max: -0.000000, min: 12.508627, diagonal factor: 1.000000
+r2=3.006087, zeta=6
+# processing ../data/33matrices/B6_1.mtx ...
+se90:
+modification max: 5.367110, min: 7.353069, diagonal factor: 1.362848
+r2=60.936716, zeta=0
+se99:
+modification max: -0.535530, min: 0.952538, diagonal factor: 12.307343
+r2=35.502561, zeta=8
+se1:
+modification max: -0.321635, min: 0.952538, diagonal factor: 12.534640
+r2=35.502561, zeta=2
+# processing ../data/33matrices/B6_2.mtx ...
+se90:
+modification max: 5.307295, min: 7.214558, diagonal factor: 1.361029
+r2=53.145548, zeta=0
+se99:
+modification max: -0.604403, min: 1.225161, diagonal factor: 1.607790
+r2=9.025066, zeta=7
+se1:
+modification max: -0.604403, min: 1.225161, diagonal factor: 1.496089
+r2=9.025066, zeta=2
+# processing ../data/33matrices/B7_1.mtx ...
+se90:
+modification max: -444.217808, min: 607.417500, diagonal factor: 1.579649
+r2=5.629824, zeta=2
+se99:
+modification max: -161.538012, min: 332.246338, diagonal factor: 2.896260
+r2=3.621918, zeta=2
+se1:
+modification max: -161.538012, min: 433.367349, diagonal factor: 2.425864
+r2=4.016647, zeta=2
+# processing ../data/33matrices/B7_2.mtx ...
+se90:
+modification max: -13.104329, min: 180.724372, diagonal factor: 2.855554
+r2=24.288608, zeta=0
+se99:
+modification max: -0.000000, min: 9.739157, diagonal factor: 1.000000
+r2=1.308902, zeta=7
+se1:
+modification max: -0.000000, min: 19.478160, diagonal factor: 1.000000
+r2=2.617784, zeta=1
+# processing ../data/33matrices/B7_3.mtx ...
+se90:
+modification max: -17.441446, min: 176.443898, diagonal factor: 2.956086
+r2=15.907346, zeta=0
+se99:
+modification max: 0.000000, min: 13.605865, diagonal factor: 1.000000
+r2=1.226640, zeta=6
+se1:
+modification max: 0.000000, min: 27.211527, diagonal factor: 1.000000
+r2=2.453262, zeta=1
+# processing ../data/33matrices/B7_4.mtx ...
+se90:
+modification max: -21.807470, min: 172.145989, diagonal factor: 3.080516
+r2=12.498530, zeta=1
+se99:
+modification max: -0.000000, min: 16.377337, diagonal factor: 1.000000
+r2=1.189064, zeta=6
+se1:
+modification max: -0.000000, min: 32.754430, diagonal factor: 1.000000
+r2=2.378111, zeta=1
+# processing ../data/33matrices/B8_1.mtx ...
+se90:
+modification max: -126859048.197174, min: 126860587.045878, diagonal factor: 1.732976
+r2=143758385.721858, zeta=5
+se99:
+modification max: -82.125889, min: 83.255547, diagonal factor: 2457.414258
+r2=115098.787036, zeta=10
+se1:
+modification max: -82.125889, min: 84.375888, diagonal factor: 2440.381513
+r2=115098.787036, zeta=10
+# processing ../data/33matrices/B13_1.mtx ...
+se90:
+modification max: -4485099.036212, min: 4485199.824904, diagonal factor: 1.414066
+r2=-562362722.274942, zeta=5
+se99:
+modification max: -0.000000, min: 0.000000, diagonal factor: 1.414214
+r2=-0.000000, zeta=9
+se1:
+modification max: -0.000000, min: 0.000000, diagonal factor: 1.414214
+r2=-0.000000, zeta=9
+# processing ../data/33matrices/B13_2.mtx ...
+se90:
+modification max: -694560.307989, min: 694855.254460, diagonal factor: 1.413243
+r2=92032.672800, zeta=5
+se99:
+modification max: -3.015961, min: 9.935728, diagonal factor: 32.242136
+r2=29.155105, zeta=10
+se1:
+modification max: -3.015961, min: 19.679581, diagonal factor: 17.562314
+r2=29.155105, zeta=6
+# processing ../data/33matrices/B26_1.mtx ...
+se90:
+modification max: -0.067849, min: 0.620960, diagonal factor: 7.977492
+r2=9.510926, zeta=3
+se99:
+modification max: -0.007020, min: 0.571700, diagonal factor: 8.557611
+r2=9.036326, zeta=7
+se1:
+modification max: -0.007020, min: 0.696272, diagonal factor: 5.719017
+r2=9.036326, zeta=1
+# processing ../data/33matrices/B55_1.mtx ...
+se90:
+modification max: -1.159724, min: 1.472785, diagonal factor: 1.941467
+r2=8.090453, zeta=5
+se99:
+modification max: -0.416938, min: 0.728994, diagonal factor: 2.896328
+r2=4.004586, zeta=6
+se1:
+modification max: -0.104891, min: 0.728994, diagonal factor: 3.139715
+r2=4.004586, zeta=1
+octave:4> diary off

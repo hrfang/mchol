@@ -1,0 +1,20 @@
+octave:8> test_griewank
+The modified Newton method with gmw81 ends up with x=[2.18378e-08;3.0886e-08], f(x)=4.44089e-16.
+    number of iterations (gradient evaluations, Hessian evaluations): 4
+    number of function evaluations in line search: 5 (total # function evaluations 9)
+The modified Newton method with gmw1 ends up with x=[2.18378e-08;3.0886e-08], f(x)=4.44089e-16.
+    number of iterations (gradient evaluations, Hessian evaluations): 4
+    number of function evaluations in line search: 5 (total # function evaluations 9)
+The modified Newton method with gmw2 ends up with x=[1.09089e-09;1.54038e-09], f(x)=0.
+    number of iterations (gradient evaluations, Hessian evaluations): 4
+    number of function evaluations in line search: 18 (total # function evaluations 22)
+The modified Newton method with se90 ends up with x=[5.36533e-09;-9.81151e-09], f(x)=0.
+    number of iterations (gradient evaluations, Hessian evaluations): 4
+    number of function evaluations in line search: 12 (total # function evaluations 16)
+The modified Newton method with se99 ends up with x=[5.36533e-09;-9.81151e-09], f(x)=0.
+    number of iterations (gradient evaluations, Hessian evaluations): 4
+    number of function evaluations in line search: 12 (total # function evaluations 16)
+The modified Newton method with se1 ends up with x=[-3.14002;-4.43844], f(x)=0.00739604.
+    number of iterations (gradient evaluations, Hessian evaluations): 5
+    number of function evaluations in line search: 4 (total # function evaluations 9)
+octave:9> diary off
