@@ -6,15 +6,15 @@ We have included implementations of modified Cholesky algorithms
 **gmw81**, **gmw1**, **gmw2**, **se90**, **se99**, and **se1**.
 They differ in how they compute the modification.
 
-To be precise, given a symmetric matrix \\(A\\), each algorithm produces
-output matrices \\(L\\), \\(P\\), and \\(E\\), so that
+To be precise, given a symmetric matrix $$A$$, each algorithm produces
+output matrices $$L$$, $$P$$, and $$E$$, so that
 
-\\[
+$$
 P (A + E) P^T = L L^T,
-\\]
+$$
 
-where \\(P\\) is a permutation matrix for pivoting, \\(L\\) is lower triangular,
-and \\(E\\) is the modification.
+where $$P$$ is a permutation matrix for pivoting, $$L$$ is lower triangular,
+and $$E$$ is the modification.
 
 In practice, for non-convex optimization, the **se90** algorithm is not generally stable,
 whereas the other 5 algorithms usually work fine.
@@ -32,25 +32,25 @@ whereas the other 5 algorithms usually work fine.
 
 ## Why modified Cholesky factorizations?
 
-To minimize a function \\(f:\mathbb{R}^n\rightarrow\mathbb{R}\\) by Newton's method,
-we solve a linear system \\(Ax=b\\) for the search direction at every iteration,
-where \\(A\in\mathbb{R}^{n\times n}\\) is the Hessian matrix and \\(b\in\mathbb{R}^n\\) is the negated gradient.
+To minimize a function $$f:\mathbb{R}^n\rightarrow\mathbb{R}$$ by Newton's method,
+we solve a linear system $$Ax=b$$ for the search direction at every iteration,
+where $$A\in\mathbb{R}^{n\times n}$$ is the Hessian matrix and $$b\in\mathbb{R}^n$$ is the negated gradient.
 
-The Hessian matrix \\(A\\) is symmetric
+The Hessian matrix $$A$$ is symmetric
 under the assumption that second partial derivatives
-of the objective function \\(f\\) are continuous.
-Moreover, \\(A\\) is symmetric positive definite (SPD) and the search
-direction from solving \\(Ax=b\\) is descent,
-if the objective function \\(f\\) is strictly convex.
+of the objective function $$f$$ are continuous.
+Moreover, $$A$$ is symmetric positive definite (SPD) and the search
+direction from solving $$Ax=b$$ is descent,
+if the objective function $$f$$ is strictly convex.
 Coupled with a globalization technique such as a line search or trust region
 technique, Newton's method is guaranteed to converge to the minimum,
 which is unique and hence global due to convexity.
 
-When the objective function \\(f\\) is not convex, the Hessian \\(A\\) may
+When the objective function $$f$$ is not convex, the Hessian $$A$$ may
 be indefinite, and Netwon's direction may not be descent.
 As a result, convergence to a minimum is no longer guaranteed.
-A modified Cholesky algorithm perturbs \\(A\\) to be a positive definite
-\\(A+E\\) to ensure a descent search direction and therefore the convergence
+A modified Cholesky algorithm perturbs $$A$$ to be a positive definite
+$$A+E$$ to ensure a descent search direction and therefore the convergence
 to a local minimum.
 
 
@@ -77,8 +77,8 @@ $ ../../drivers/gmw -gmw81 FIRST.mtx L.mtx -P=P.mtx -E=E.mtx
 ```
 
 Here `FIRST.mtx` is the input matrix.
-We should get the Cholesky factor \\(L\\) stored in `L.mtx`,
-the permutation matrix \\(P\\) stored in `P.mtx`, and
+We should get the Cholesky factor $$L$$ stored in `L.mtx`,
+the permutation matrix $$P$$ stored in `P.mtx`, and
 the modification matrix stored in `E.mtx`.
 
 For Matlab/Octave users, a Matlab/Octave script to read mtx files is here:
