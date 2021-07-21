@@ -13,8 +13,8 @@ output matrices <span class="math display"><em>L</em></span>,
 
 <span class="math display"><em>P</em>(<em>A</em>+<em>E</em>)<em>P</em><sup><em>T</em></sup> = <em>L</em><em>L</em><sup><em>T</em></sup>,</span>
 
-where $$P$$ is a permutation matrix for pivoting, $$L$$ is lower triangular,
-and $$E$$ is the modification.
+where \\(P\\) is a permutation matrix for pivoting, $$L$$ is lower triangular,
+and \\(E\\) is the modification.
 
 In practice, for non-convex optimization, the **se90** algorithm is not generally stable,
 whereas the other 5 algorithms usually work fine.
@@ -32,7 +32,7 @@ whereas the other 5 algorithms usually work fine.
 
 ## Why modified Cholesky factorizations?
 
-To minimize a function $$f:\mathbb{R}^n\rightarrow\mathbb{R}$$ by Newton's method,
+To minimize a function \\(f:\mathbb{R}^n\rightarrow\mathbb{R}\\) by Newton's method,
 we solve a linear system $$Ax=b$$ for the search direction at every iteration,
 where $$A\in\mathbb{R}^{n\times n}$$ is the Hessian matrix and $$b\in\mathbb{R}^n$$ is the negated gradient.
 
