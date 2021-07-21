@@ -1,5 +1,3 @@
-{% raw %}
-
 # A C++ Implementation of Modified Cholesky Factorizations
 
 This set of codes compute Cholesky factorizations of real symmetric matrices,
@@ -8,12 +6,12 @@ We have included implementations of modified Cholesky algorithms
 **gmw81**, **gmw1**, **gmw2**, **se90**, **se99**, and **se1**.
 They differ in how they compute the modification.
 
-To be precise, given a symmetric matrix \\(A\\), each algorithm produces
-output matrices $$L$$, $$P$$, and $$E$$, so that
+To be precise, given a symmetric matrix <span class="math display"><em>A</em></span>, each algorithm produces
+output matrices <span class="math display"><em>L</em></span>,
+<span class="math display"><em>P</em></span>, and
+<span class="math display"><em>E</em></span>, so that
 
-$$
-P (A + E) P^T = L L^T,
-$$
+<span class="math display"><em>P</em>(<em>A</em>+<em>E</em>)<em>P</em><sup><em>T</em></sup> = <em>L</em><em>L</em><sup><em>T</em></sup>,</span>
 
 where $$P$$ is a permutation matrix for pivoting, $$L$$ is lower triangular,
 and $$E$$ is the modification.
@@ -141,5 +139,3 @@ Questions, comments, and complaints, send us email:
 Haw-ren Fang and Dianne O'Leary,
 "Modified Cholesky Algorithms: A Catalog with New Approaches,"
 Mathematical Programming, Series A, Vol. 115, No. 2, pp. 319--349, 2008.
-
-{% endraw %}
