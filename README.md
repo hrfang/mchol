@@ -1,3 +1,8 @@
+---
+markdown: kramdown
+mathjax: true
+---
+
 # A C++ Implementation of Modified Cholesky Factorizations
 
 This set of codes compute Cholesky factorizations of real symmetric matrices,
