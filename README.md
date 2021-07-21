@@ -1,7 +1,4 @@
----
-markdown: kramdown
-mathjax: true
----
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? config=TeX-MML-AM_CHTML"</script>
 
 # A C++ Implementation of Modified Cholesky Factorizations
 
