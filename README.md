@@ -1,5 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? config=TeX-MML-AM_CHTML"</script>
-
 # A C++ Implementation of Modified Cholesky Factorizations
 
 This set of codes compute Cholesky factorizations of real symmetric matrices,
@@ -15,8 +13,9 @@ output matrices <span class="math display"><em>L</em></span>,
 
 <span class="math display"><em>P</em>(<em>A</em>+<em>E</em>)<em>P</em><sup><em>T</em></sup> = <em>L</em><em>L</em><sup><em>T</em></sup>,</span>
 
-where \\(P\\) is a permutation matrix for pivoting, $$L$$ is lower triangular,
-and \\(E\\) is the modification.
+where <span class="math display"><em>P</em></span> is a permutation matrix for pivoting,
+<span class="math display"><em>L</em></span> is lower triangular, and
+<span class="math display"><em>E</em></span> is the modification.
 
 In practice, for non-convex optimization, the **se90** algorithm is not generally stable,
 whereas the other 5 algorithms usually work fine.
@@ -34,26 +33,28 @@ whereas the other 5 algorithms usually work fine.
 
 ## Why modified Cholesky factorizations?
 
-To minimize a function $f:\mathbb{R}^n\rightarrow\mathbb{R}$ by Newton's method,
-we solve a linear system $Ax=b$ for the search direction at every iteration,
-where $A\in\mathbb{R}^{n\times n}$ is the Hessian matrix and $b\in\mathbb{R}^n$ is the negated gradient.
+To minimize a function <span class="math display"><em>f</em> : ℝ<sup><em>n</em></sup> → ℝ</span> by Newton's method,
+we solve a linear system <span class="math display"><em>A</em><em>x</em> = <em>b</em></span> for the search direction at every iteration,
+where <span class="math display"><em>A</em> ∈ ℝ<sup><em>n</em> × <em>n</em></sup></span>
+is the Hessian matrix and <span class="math display"><em>b</em> ∈ ℝ<sup><em>n</em></sup></span> is the negated gradient.
 
-The Hessian matrix $A$ is symmetric
+The Hessian matrix <span class="math display"><em>A</em></span> is symmetric
 under the assumption that second partial derivatives
-of the objective function $f$ are continuous.
-Moreover, $A$ is symmetric positive definite (SPD) and the search
-direction from solving $Ax=b$ is descent,
-if the objective function $f$ is strictly convex.
-Coupled with a globalization technique such as a line search or trust region
-technique, Newton's method is guaranteed to converge to the minimum,
+of the objective function <span class="math display"><em>f</em></span> are continuous.
+Moreover, <span class="math display"><em>A</em></span> is symmetric positive definite (SPD) and the search
+direction from solving <span class="math display"><em>A</em><em>x</em> = <em>b</em></span> is descent,
+if the objective function <span class="math display"><em>f</em></span> is strictly convex.
+Coupled with a globalization technique such as line search or trust region,
+Newton's method is guaranteed to converge to the minimum,
 which is unique and hence global due to convexity.
 
-When the objective function $f$ is not convex, the Hessian $A$ may
-be indefinite, and Netwon's direction may not be descent.
+When the objective function <span class="math display"><em>f</em></span> is not convex,
+the Hessian <span class="math display"><em>A</em></span> may be indefinite, and
+Netwon's direction may not be descent.
 As a result, convergence to a minimum is no longer guaranteed.
-A modified Cholesky algorithm perturbs $A$ to be a positive definite
-$A+E$ to ensure a descent search direction and therefore the convergence
-to a local minimum.
+A modified Cholesky algorithm perturbs <span class="math display"><em>A</em></span> to be a positive definite
+<span class="math display"><em>A</em> + <em>E</em></span> to ensure a descent search direction and
+therefore the convergence to a local minimum.
 
 
 ## How to install?
@@ -79,9 +80,9 @@ $ ../../drivers/gmw -gmw81 FIRST.mtx L.mtx -P=P.mtx -E=E.mtx
 ```
 
 Here `FIRST.mtx` is the input matrix.
-We should get the Cholesky factor $L$ stored in `L.mtx`,
-the permutation matrix $P$ stored in `P.mtx`, and
-the modification matrix stored in `E.mtx`.
+We should get the Cholesky factor <span class="math display"><em>L</em></span> stored in `L.mtx`,
+the permutation matrix <span class="math display"><em>P</em></span> stored in `P.mtx`, and
+the modification matrix <span class="math display"><em>E</em></span> stored in `E.mtx`.
 
 For Matlab/Octave users, a Matlab/Octave script to read mtx files is here:
 
@@ -141,3 +142,6 @@ Questions, comments, and complaints, send us email:
 Haw-ren Fang and Dianne O'Leary,
 "Modified Cholesky Algorithms: A Catalog with New Approaches,"
 Mathematical Programming, Series A, Vol. 115, No. 2, pp. 319--349, 2008.
+[preprint][mchol_preprint]
+
+[mchol_preprint]: https://www.cs.umd.edu/users/oleary/tr/tr4807.pdf
