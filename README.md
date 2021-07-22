@@ -18,7 +18,7 @@ where <span class="math display"><em>P</em></span> is a permutation matrix for p
 <span class="math display"><em>E</em></span> is the modification.
 
 In practice, for non-convex optimization, the **se90** algorithm is not generally stable,
-whereas the other 5 algorithms usually work fine.
+whereas the other 5 algorithms work fine and recommended.
 
 
 ## Table of Contents
@@ -44,7 +44,7 @@ of the objective function <span class="math display"><em>f</em></span> are conti
 Moreover, <span class="math display"><em>A</em></span> is symmetric positive definite (SPD) and the search
 direction from solving <span class="math display"><em>A</em><em>x</em> = <em>b</em></span> is descent,
 if the objective function <span class="math display"><em>f</em></span> is strictly convex.
-Coupled with a globalization technique such as line search or trust region,
+Coupled with line search for globalization,
 Newton's method is guaranteed to converge to the minimum,
 which is unique and hence global due to convexity.
 
@@ -55,6 +55,10 @@ As a result, convergence to a minimum is no longer guaranteed.
 A modified Cholesky algorithm perturbs <span class="math display"><em>A</em></span> to be a positive definite
 <span class="math display"><em>A</em> + <em>E</em></span> to ensure a descent search direction and
 therefore the convergence to a local minimum.
+
+Note that modified Cholesky factorizations are useful not only for
+unconstrained non-convex optimization, but also for constrained optimization
+with a non-convex objective by interior point methods.
 
 
 ## How to install?
